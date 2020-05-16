@@ -1,118 +1,205 @@
-<!--Navbar-->
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" [containerInside]="false">
+<!-- Header -->
+<header>
 
-  <!-- Navbar brand -->
-  <mdb-navbar-brand><a class="navbar-brand" href="#">Emanuele Caloisi</a></mdb-navbar-brand>
+  <!--Navbar-->
+  <mdb-navbar #navbarid SideClass="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" [containerInside]="false">
 
-  <!-- Collapsible content -->
-  <links>
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand" href="#">Emanuele Caloisi</a></mdb-navbar-brand>
 
-    <!-- Links -->
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          <mdb-icon fas icon="home"></mdb-icon>
-          Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          <mdb-icon fas icon="user"></mdb-icon>
-          Chi Sono</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          <mdb-icon fas icon="cog"></mdb-icon>
-          Metodo</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          <mdb-icon fas icon="cog"></mdb-icon>
-          Il Box</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          <mdb-icon fas icon="cog"></mdb-icon>
-          Recensioni</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          <mdb-icon fas icon="cog"></mdb-icon>
-          Prezzi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          <mdb-icon fas icon="envelope"></mdb-icon>
-          Contact</a>
-      </li>
+    <!-- Collapsible content -->
+    <links (click)="onClick()">
 
-    </ul>
-    <!-- Links -->
-  </links>
-  <!-- Collapsible content -->
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="home"></mdb-icon>
+            Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#chiSono" class="nav-link waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="user"></mdb-icon>
+            Chi Sono</a>
+        </li>
+        <li class="nav-item">
+          <a href="#metodo" class="nav-link waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="cog"></mdb-icon>
+            Metodo</a>
+        </li>
+        <li class="nav-item">
+          <a href="#ilbox" class="nav-link waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="cog"></mdb-icon>
+            Il Box</a>
+        </li>
+        <li class="nav-item">
+          <a href="#recensioni" class="nav-link waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="cog"></mdb-icon>
+            Recensioni</a>
+        </li>
+        <li class="nav-item">
+          <a href="#prezzi" class="nav-link waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="cog"></mdb-icon>
+            Prezzi</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contatti" class="nav-link waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="envelope"></mdb-icon>
+            Contatti</a>
+        </li>
 
-</mdb-navbar>
-<!--/.Navbar-->
+      </ul>
+      <!-- Links -->
+    </links>
+    <!-- Collapsible content -->
 
-<!-- Cover image -->
-<div class="row">
-  <div class="col">
-    <div class="fill view">
-      <img src="../assets/cover_image.jpg" alt=""/>
-      <div class="mask flex-center rgba-black-strong">
-        <h1 class="white-text">Emanuele Caloisi</h1>
+  </mdb-navbar>
+  <!-- Navbar -->
+
+  <!--Mask-->
+  <div id="intro" class="view">
+    <div class="mask flex-center rgba-black-strong">
+
+      <div class="wow fadeInDown animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeInDown; animation-delay: 0.2s;">
+        <hr class="white">
+        <h1 class="white-text display-4 font-weight-bold">
+          <em>Emanuele Caloisi</em>
+        </h1>
+        <hr class="white">
       </div>
+
     </div>
   </div>
-</div>
-<!-- Cover image -->
+  <!-- Mask -->
 
-<div class="container">
+</header>
+<!-- Header -->
 
-  <section id="chiSono">
-    <h2 class="text-center my-5 font-weight-bold wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Chi Sono</h2>
-    <pre>
-        Sono Emanuele Caloisi, nato a Roma classe 1987,
-        Il mio amore per lo sport nasce sin da piccolo avendone praticati dai più disparati, dal nuoto al calcio passando
-        per il karate, dando sempre dei buoni risultati agonistici. Nel 2001 entrai in una palestra di pugilato
-        rimanendone folgorato, sudore, sacrificio e voglia di mettermi in gioco era ciò che mi appassionava e che mi
-        rendeva felice. La mia dedizione verso quello sport cresceva giorno per giorno, dando un senso alla mia
-        iperattività e tirando fuori il meglio di me stesso!
+<!-- Main -->
+<main>
 
-        Tutto questo venne improvvisamente interrotto nel 2008 da un brutto infortunio alla schiena che ha fatto sì che la
-        mia strada ed il pugilato si interrompessero bloccandomi alcuni mesi dagli allenamenti e mentre ero impegnato alla
-        mia riatletizzazione in palestra, la mia attenzione si spostò verso una nuova disciplina che in Italia si stava
-        evolvendo proprio in quegli anni, le arti marziali miste.
+  <div class="container topMargin">
+    <div class="row">
+      <div class="col">
+        <section style="padding-top: 40px; margin-top: -40px;" id="chiSono">
+          <hr>
+          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Chi Sono</h2>
+          <hr>
+          <p class="dark-grey-text text-justify">
+            Sono <b>Emanuele Caloisi</b>, nato a Roma classe 1987,
+            Il mio amore per lo sport nasce sin da piccolo avendone praticati dai più disparati, dal nuoto al calcio
+            passando per il karate, dando sempre dei buoni risultati agonistici. Nel 2001 entrai in una palestra di
+            pugilato rimanendone folgorato, sudore, sacrificio e voglia di mettermi in gioco era ciò che mi appassionava e che mi
+            rendeva felice. La mia dedizione verso quello sport cresceva giorno per giorno, dando un senso alla mia
+            iperattività e tirando fuori il meglio di me stesso!
+          </p>
+          <p class="dark-grey-text text-justify">
+            Tutto questo venne improvvisamente interrotto nel 2008 da un brutto infortunio alla schiena che ha fatto sì
+            che la mia strada ed il pugilato si interrompessero bloccandomi alcuni mesi dagli allenamenti e mentre ero
+            impegnato alla mia riatletizzazione in palestra, la mia attenzione si spostò verso una nuova disciplina che
+            in Italia si stava evolvendo proprio in quegli anni, le arti marziali miste.
+          </p>
+          <p class="dark-grey-text text-justify">
+            Nel 2009 partecipai ad un camp dove il Brazilian Jiu Jitsu, disciplina che praticai per circa un anno,
+            scoprendo anche la bellezza della preparazione atletica dei fighter (metodologia molto simile al CrossFit, sport
+            ancora quasi sconosciuto in Italia) fino a che nel 2012 non fui costretto a fermarmi del tutto con gli sport da
+            combattimento per colpa di un intervento maxillo-facciale.
+          </p>
+          <p class="dark-grey-text text-justify">
+            In quell’anno bruttissimo, come un’illuminazione, compresi che avrei dovuto far sì che la mia passione
+            diventasse qualcosa di più, mi iscrissi alla ISSA dove mi diplomai nel 2013 e dopo una costante formazione che dura
+            ancora ad oggi e che non si fermerà mai, decisi di licenziarmi da un fantastico posto di lavoro come agente di
+            commercio per una nota multinazionale, con contratto a tempo indeterminato in più numerosi benefit e buttarmi in una nuova
+            avventura offerta da una grande multinazionale del fitness, la Virgin Active.
+          </p>
+          <p class="dark-grey-text text-justify">
+            Lo stesso anno ho conosciuto Viviana, futura madre dei miei due bambini, Alessandro e Beatrice, la quale un
+            giorno, nel 2014 mi propose di andare a fare una lezione di prova di CrossFit, dove ritrovai quella magia
+            che anni prima mi fece innamorare del pugilato.
+          </p>
+          <p class="dark-grey-text text-justify">
+            Dalla sera stessa iniziai a documentarmi su tutto ciò che era il CrossFit, cominciai a sposare a 360 gradi
+            tutta la metodologia e filosofia d’allenamento fino a che nel gennaio 2015 non conseguii il Level 1.
+          </p>
+          <p class="dark-grey-text text-justify">
+            Da lì in poi iniziai a lavorare per vari box Romani come coach e in palestra come Personal Trainer, a
+            prendere parte alle varie competizioni Nazionali di CrossFit e a formarmi sempre di più iscrivendomi anche alla
+            facoltà di Scienze Motorie.
+          </p>
+          <p class="dark-grey-text text-justify">
+            Dopo aver allenato centinaia di persone, atleti agonisti ma anche persone che vogliono semplicemente
+            mettersi in forma, nell’estate 2018 grazie anche al supporto dei miei due soci Augusto Bulzoni e Michal Lasko, decisi di
+            terminare la collaborazione con Virgin Active e aprire il mio primo box, CrossFit Torrevecchia.
+          </p>
+        </section>
+      </div>
 
-        Nel 2009 partecipai ad un camp dove il Brazilian Jiu Jitsu, disciplina che praticai per circa un anno, scoprendo
-        anche la bellezza della preparazione atletica dei fighter (metodologia molto simile al CrossFit, sport ancora
-        quasi sconosciuto in Italia) fino a che nel 2012 non fui costretto a fermarmi del tutto con gli sport da
-        combattimento per colpa di un intervento maxillo-facciale.
+      <div class="col-xl-4 col-md-4 mb-3 text-center align-self-center hoverable">
+        <img src="../assets/chi_sono0.JPG" class="img-fluid z-depth-1" alt="Responsive image">
+      </div>
 
-        In quell’anno bruttissimo, come un’illuminazione, compresi che avrei dovuto far sì che la mia passione diventasse
-        qualcosa di più, mi iscrissi alla ISSA dove mi diplomai nel 2013 e dopo una costante formazione che dura ancora ad
-        oggi e che non si fermerà mai, decisi di licenziarmi da un fantastico posto di lavoro come agente di commercio per
-        una nota multinazionale, con contratto a tempo indeterminato in più numerosi benefit e buttarmi in una nuova
-        avventura offerta da una grande multinazionale del fitness, la Virgin Active.
+    </div>
 
-        Lo stesso anno ho conosciuto Viviana, futura madre dei miei due bambini, Alessandro e Beatrice, la quale un
-        giorno, nel 2014 mi propose di andare a fare una lezione di prova di CrossFit, dove ritrovai quella magia che anni
-        prima mi fece innamorare del pugilato.
+    <div class="row">
+      <div class="col">
+        <section style="padding-top: 40px; margin-top: -40px;" id="metodo">
+          <hr>
+          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Metodo</h2>
+          <hr>
+        </section>
+      </div>
+    </div>
 
-        Dalla sera stessa iniziai a documentarmi su tutto ciò che era il CrossFit, cominciai a sposare a 360 gradi tutta
-        la metodologia e filosofia d’allenamento fino a che nel gennaio 2015 non conseguii il Level 1.
+    <div class="row">
+      <div class="col">
+        <section style="padding-top: 40px; margin-top: -40px;" id="ilbox">
+          <hr>
+          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Il Box</h2>
+          <hr>
+        </section>
+      </div>
+    </div>
 
-        Da lì in poi iniziai a lavorare per vari box Romani come coach e in palestra come Personal Trainer, a prendere
-        parte alle varie competizioni Nazionali di CrossFit e a formarmi sempre di più iscrivendomi anche alla facoltà di
-        Scienze Motorie.
+    <div class="row">
+      <div class="col">
+        <section style="padding-top: 40px; margin-top: -40px;" id="recensioni">
+          <hr>
+          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Recensioni</h2>
+          <hr>
+        </section>
+      </div>
+    </div>
 
-        Dopo aver allenato centinaia di persone, atleti agonisti ma anche persone che vogliono semplicemente mettersi in
-        forma, nell’estate 2018 grazie anche al supporto dei miei due soci Augusto Bulzoni e Michal Lasko, decisi di
-        terminare la collaborazione con Virgin Active e aprire il mio primo box, CrossFit Torrevecchia.
-      </pre>
-  </section>
+    <div class="row">
+      <div class="col">
+        <section style="padding-top: 40px; margin-top: -40px;" id="prezzi">
+          <hr>
+          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Prezzi</h2>
+          <hr>
+        </section>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="col">
+        <section style="padding-top: 40px; margin-top: -40px;" id="contatti">
+          <hr>
+          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Contatti</h2>
+          <hr>
+        </section>
+      </div>
+    </div>
 
-</div>
+  </div>
+
+</main>
+<!-- Main -->
 
 <!-- Footer -->
 <footer class="page-footer font-small cyan bg-dark">
@@ -144,7 +231,7 @@
       <!-- Grid column -->
 
     </div>
-    <!-- Grid row-->
+    <!-- Grid row -->
 
   </div>
   <!-- Footer Elements -->

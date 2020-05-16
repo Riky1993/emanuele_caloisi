@@ -10,3 +10,27 @@
   width: 100%;
   min-height: 100%
 }
+
+.topMargin {
+  margin-top: 50px;
+}
+
+#intro {
+  background: url(../assets/cover_image.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+b {
+  font-weight: 900;
+}
+
+hr {
+  border-width: 5px;
+}
+
+main {
+  padding-top: 40px;
+}
