@@ -16,7 +16,7 @@
 }
 
 #intro {
-  background: url(../assets/cover_image.jpg) no-repeat center;
+  background: url(../assets/cover_image.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,4 +33,14 @@ hr {
 
 main {
   padding-top: 40px;
+}
+
+.centerForMobile {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  #intro {
+    background-attachment: scroll;
+  }
 }
