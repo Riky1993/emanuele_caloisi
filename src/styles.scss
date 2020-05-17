@@ -4,14 +4,6 @@ body,
 header,
 #intro {
   height: 100%;
+  font-family: Arial, serif;
   scroll-behavior: smooth;
-}
-
-@media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 100vh;
-  }
 }
