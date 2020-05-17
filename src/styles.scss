@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+html,
 body,
 header,
 #intro {
@@ -7,7 +7,11 @@ header,
   scroll-behavior: smooth;
 }
 
-html {
-  height: 100vh; /* set viewport constraint */
-  min-height: 100%; /* enforce height */
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
 }
