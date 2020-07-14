@@ -2,7 +2,7 @@
 <header>
 
   <!--Navbar-->
-  <mdb-navbar #navbarid SideClass="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" [containerInside]="false">
+  <mdb-navbar #navbarid SideClass="navbar navbar-expand-lg navbar-dark danger-color-dark fixed-top" [containerInside]="false">
 
     <!-- Navbar brand -->
     <mdb-navbar-brand><a class="navbar-brand" href="#">Emanuele Caloisi</a></mdb-navbar-brand>
@@ -11,43 +11,42 @@
     <links (click)="onClick()">
 
       <!-- Links -->
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto fontHeader">
         <li class="nav-item">
           <a href="#" class="nav-link waves-light" mdbWavesEffect>
-            <mdb-icon fas icon="home"></mdb-icon>
+            <!--<mdb-icon fas icon="home"></mdb-icon>-->
             Home</a>
         </li>
         <li class="nav-item">
           <a href="#chiSono" class="nav-link waves-light" mdbWavesEffect>
-            <mdb-icon fas icon="user"></mdb-icon>
+            <!--<mdb-icon fas icon="user"></mdb-icon>-->
             Chi Sono</a>
         </li>
         <li class="nav-item">
           <a href="#metodo" class="nav-link waves-light" mdbWavesEffect>
-            <mdb-icon fas icon="cog"></mdb-icon>
+            <!--<mdb-icon fas icon="brain"></mdb-icon>-->
             Metodo</a>
         </li>
         <li class="nav-item">
           <a href="#ilbox" class="nav-link waves-light" mdbWavesEffect>
-            <mdb-icon fas icon="cog"></mdb-icon>
+            <!--<mdb-icon fas icon="dumbbell"></mdb-icon>-->
             Il Box</a>
         </li>
         <li class="nav-item">
           <a href="#recensioni" class="nav-link waves-light" mdbWavesEffect>
-            <mdb-icon fas icon="cog"></mdb-icon>
+            <!--<mdb-icon fas icon="clipboard-list"></mdb-icon>-->
             Recensioni</a>
         </li>
         <li class="nav-item">
           <a href="#prezzi" class="nav-link waves-light" mdbWavesEffect>
-            <mdb-icon fas icon="cog"></mdb-icon>
+            <!--<mdb-icon fas icon="dollar-sign"></mdb-icon>-->
             Prezzi</a>
         </li>
         <li class="nav-item">
           <a href="#contatti" class="nav-link waves-light" mdbWavesEffect>
-            <mdb-icon fas icon="envelope"></mdb-icon>
+            <!--<mdb-icon fas icon="envelope"></mdb-icon>-->
             Contatti</a>
         </li>
-
       </ul>
       <!-- Links -->
     </links>
@@ -84,7 +83,7 @@
       <div class="col">
         <section style="padding-top: 40px; margin-top: -40px;" id="chiSono">
           <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
               style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Chi Sono</h2>
           <hr>
           <p class="dark-grey-text text-justify">
@@ -154,7 +153,7 @@
       <div class="col">
         <section style="padding-top: 40px; margin-top: -40px;" id="metodo">
           <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
               style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Metodo</h2>
           <hr>
         </section>
@@ -165,7 +164,7 @@
       <div class="col">
         <section style="padding-top: 40px; margin-top: -40px;" id="ilbox">
           <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
               style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Il Box</h2>
           <hr>
         </section>
@@ -176,7 +175,7 @@
       <div class="col">
         <section style="padding-top: 40px; margin-top: -40px;" id="recensioni">
           <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
               style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Recensioni</h2>
           <hr>
         </section>
@@ -187,7 +186,7 @@
       <div class="col">
         <section style="padding-top: 40px; margin-top: -40px;" id="prezzi">
           <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
               style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Prezzi</h2>
           <hr>
         </section>
@@ -198,7 +197,7 @@
       <div class="col">
         <section style="padding-top: 40px; margin-top: -40px;" id="contatti">
           <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn" data-wow-delay="0.2s"
+          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
               style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Contatti</h2>
           <hr>
 
@@ -227,7 +226,7 @@
 <!-- Main -->
 
 <!-- Footer -->
-<footer class="page-footer font-small cyan bg-dark">
+<footer class="page-footer font-small cyan danger-color-dark">
 
   <!-- Footer Elements -->
   <div class="container">
