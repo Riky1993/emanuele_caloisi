@@ -16,7 +16,7 @@
 }
 
 #intro {
-  background: url(../assets/cover_image2m.jpg) no-repeat center fixed;
+  background: url(../assets/newCoverImage3.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,9 +31,9 @@ hr {
   border-width: 5px;
 }
 
-main {
+/*main {
   padding-top: 40px;
-}
+}*/
 
 .centerForMobile {
   text-align: center;
@@ -49,15 +49,19 @@ pre {
   font-family: Calibri, serif
 }
 
-.fontHeader {
-  font-family: Open Sans, serif;
-}
-
 .titleSection {
   font-family: Stencil, sans-serif;
 }
 
 .logo-style {
-  height: 20%;
-  width: 20%
+  //height: 20%;
+  width: 10rem
+}
+
+a {
+  font-family: Arial, serif;
+}
+
+.ec_logo_style {
+  width: 1500px;
 }

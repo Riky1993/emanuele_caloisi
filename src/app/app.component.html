@@ -2,7 +2,7 @@
 <header>
 
   <!--Navbar-->
-  <mdb-navbar #navbarid SideClass="navbar navbar-expand-lg navbar-dark danger-color-dark fixed-top" [containerInside]="false">
+  <mdb-navbar #navbarid SideClass="navbar navbar-expand-lg navbar-dark fixed-top" [containerInside]="false">
 
     <!-- Navbar brand -->
     <mdb-navbar-brand>
@@ -15,7 +15,7 @@
     <links (click)="onClick()">
 
       <!-- Links -->
-      <ul class="navbar-nav ml-auto fontHeader">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a href="#" class="nav-link waves-light" mdbWavesEffect>
             <!--<mdb-icon fas icon="home"></mdb-icon>-->
@@ -61,17 +61,8 @@
 
   <!--Mask-->
   <div id="intro" class="view">
-    <div class="mask flex-center rgba-black-strong">
-
-      <div class="wow fadeInDown animated" data-wow-delay="0.2s"
-           style="visibility: visible; animation-name: fadeInDown; animation-delay: 0.2s;">
-        <hr class="white">
-        <h1 class="white-text display-4 font-weight-bold centerForMobile">
-          <em>Emanuele Caloisi</em>
-        </h1>
-        <hr class="white">
-      </div>
-
+    <div class="mask flex-center">
+      <img class="ec_logo_style" src="../assets/emanuele_caloisi.png" alt="emanuele caloisi">
     </div>
   </div>
   <!-- Mask -->
@@ -85,7 +76,7 @@
   <div class="container topMargin">
     <div class="row">
       <div class="col">
-        <section style="padding-top: 40px; margin-top: -40px;" id="chiSono">
+        <section id="chiSono">
           <hr>
           <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
               style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Chi Sono</h2>
