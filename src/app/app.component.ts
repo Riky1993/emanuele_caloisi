@@ -12,7 +12,7 @@ export class AppComponent implements OnInit, AfterContentInit {
   @ViewChild('navbarid')
   private navbaridRef: navmdb;
   public chiSono;
-  public ecLogo;
+  public logo;
 
   constructor(private base64Img: ImageInBase64) {
   }
@@ -24,7 +24,7 @@ export class AppComponent implements OnInit, AfterContentInit {
 
   ngOnInit() {
     this.chiSono = this.base64Img.chiSono;
-    this.ecLogo = this.base64Img.getECLogo;
+    this.logo = this.base64Img.getLogo;
   }
 
   onClick(): void {

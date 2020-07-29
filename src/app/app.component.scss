@@ -37,6 +37,7 @@ hr {
 
 .centerForMobile {
   text-align: center;
+  font-family: EmanueleCaloisi, serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -62,6 +63,6 @@ a {
   font-family: Arial, serif;
 }
 
-.ec_logo_style {
-  width: 1500px;
+.redGradient {
+  background: linear-gradient(to right, #FFFFFF, #EF3B36);
 }
