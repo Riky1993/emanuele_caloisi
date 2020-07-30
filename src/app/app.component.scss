@@ -39,7 +39,7 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
-  #coverImg {
+  #intro {
     background-attachment: scroll;
   }
 }
@@ -69,7 +69,7 @@ a {
   content: url(../assets/logo.png);
 }
 
-#coverImg {
+#intro {
   background: url(../assets/newCoverImage3.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
