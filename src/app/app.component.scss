@@ -11,20 +11,13 @@
   min-height: 100%
 }
 
+.blackFont {
+  color: #404040 !important;
+  font-weight: bold;
+}
+
 .topMargin {
   margin-top: 50px;
-}
-
-#provaLogo {
-  content: url(../assets/logo.png);
-}
-
-#intro {
-  background: url(../assets/newCoverImage3.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 b {
@@ -42,10 +35,11 @@ hr {
 .centerForMobile {
   text-align: center;
   font-family: EmanueleCaloisi, serif;
+  margin-top: 110px;
 }
 
 @media screen and (max-width: 600px) {
-  #intro {
+  #coverImg {
     background-attachment: scroll;
   }
 }
@@ -69,4 +63,20 @@ a {
 
 .redGradient {
   background: linear-gradient(to right, #FFFFFF, #EF3B36);
+}
+
+#logoImg {
+  content: url(../assets/logo.png);
+}
+
+#coverImg {
+  background: url(../assets/newCoverImage3.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#chiSonoImg {
+  content: url(../assets/chi_sono0.jpg);
 }
