@@ -1,30 +1,22 @@
-import {AfterContentInit, Component, OnInit, ViewChild} from '@angular/core';
+import {AfterContentInit, Component, ViewChild} from '@angular/core';
 import {NavbarComponent as navmdb} from 'angular-bootstrap-md';
-import {ImageInBase64} from '../assets/imageInBase64';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit, AfterContentInit {
+export class AppComponent implements AfterContentInit {
   title = 'emanuele-caloisi';
   @ViewChild('navbarid')
   private navbaridRef: navmdb;
-  public chiSono;
-  public logo;
 
-  constructor(private base64Img: ImageInBase64) {
+  constructor() {
   }
 
   ngAfterContentInit(): void {
     const script = document.getElementsByTagName('nav')[0];
     script.setAttribute('style', 'background: linear-gradient(to right, #FFFFFF, #EF3B36)');
-  }
-
-  ngOnInit() {
-    this.chiSono = this.base64Img.chiSono;
-    this.logo = this.base64Img.getLogo;
   }
 
   onClick(): void {
