@@ -195,9 +195,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.navbaridRef = _t.first);
         }
       },
-      decls: 128,
-      vars: 2,
-      consts: [["SideClass", "navbar navbar-expand-lg navbar-dark fixed-top", 3, "containerInside"], ["navbarid", ""], ["href", "#", 1, "navbar-brand"], ["id", "provaLogo", 1, "logo-style"], [3, "click"], [1, "navbar-nav", "ml-auto"], [1, "nav-item"], ["href", "#", "mdbWavesEffect", "", 1, "nav-link", "waves-light"], ["href", "#chiSono", "mdbWavesEffect", "", 1, "nav-link", "waves-light"], ["href", "#metodo", "mdbWavesEffect", "", 1, "nav-link", "waves-light"], ["href", "#ilbox", "mdbWavesEffect", "", 1, "nav-link", "waves-light"], ["href", "#recensioni", "mdbWavesEffect", "", 1, "nav-link", "waves-light"], ["href", "#prezzi", "mdbWavesEffect", "", 1, "nav-link", "waves-light"], ["href", "#contatti", "mdbWavesEffect", "", 1, "nav-link", "waves-light"], ["id", "intro", 1, "view"], [1, "mask", "flex-center", "rgba-black-strong"], ["data-wow-delay", "0.2s", 1, "wow", "fadeInDown", "animated", 2, "visibility", "visible", "animation-name", "fadeInDown", "animation-delay", "0.2s"], [1, "white-text", "display-5", "font-weight-bold", "centerForMobile"], [1, "container", "topMargin"], [1, "row"], [1, "col"], ["id", "chiSono"], ["data-wow-delay", "0.2s", 1, "text-center", "font-weight-bold", "wow", "fadeIn", "titleSection", 2, "visibility", "visible", "animation-name", "fadeIn", "animation-delay", "0.2s"], [1, "dark-grey-text", "text-justify"], [1, "col-xl-4", "col-md-4", "mb-3", "text-center", "align-self-center", "hoverable"], ["alt", "Responsive image", 1, "img-fluid", "z-depth-1", 3, "src"], ["id", "metodo", 2, "padding-top", "40px", "margin-top", "-40px"], ["id", "ilbox", 2, "padding-top", "40px", "margin-top", "-40px"], ["id", "recensioni", 2, "padding-top", "40px", "margin-top", "-40px"], ["id", "prezzi", 2, "padding-top", "40px", "margin-top", "-40px"], ["id", "contatti", 2, "padding-top", "40px", "margin-top", "-40px"], ["href", "http://www.emanuelecaloisi.it"], ["href", "mailto:info@emanuelecaloisi.it"], [1, "page-footer", "font-small", "cyan", "redGradient"], [1, "container"], [1, "col-md-12", "py-5"], [1, "mb-5", "flex-center"], ["href", "https://www.facebook.com/emanuele.caloisi", 1, "fb-ic"], [1, "fab", "fa-facebook-f", "fa-lg", "white-text", "mr-md-5", "mr-3", "fa-2x"], ["href", "https://www.instagram.com/emanuelecaloisi/?hl=it", 1, "ins-ic"], [1, "fab", "fa-instagram", "fa-lg", "white-text", "mr-md-5", "mr-3", "fa-2x"], ["href", "https://wa.me/393293671498", 1, "wha-ic"], [1, "fab", "fa-whatsapp", "fa-lg", "white-text", "fa-2x"], [1, "footer-copyright", "text-center", "py-3"], ["href", "https://mdbootstrap.com/"]],
+      decls: 127,
+      vars: 1,
+      consts: [["SideClass", "navbar navbar-expand-lg navbar-dark fixed-top", 3, "containerInside"], ["navbarid", ""], ["href", "#", 1, "navbar-brand"], ["id", "logoImg", 1, "logo-style"], [3, "click"], [1, "navbar-nav", "ml-auto"], [1, "nav-item"], ["href", "#", "mdbWavesEffect", "", 1, "nav-link", "waves-light", "blackFont"], ["href", "#chiSono", "mdbWavesEffect", "", 1, "nav-link", "waves-light", "blackFont"], ["href", "#metodo", "mdbWavesEffect", "", 1, "nav-link", "waves-light", "blackFont"], ["href", "#ilbox", "mdbWavesEffect", "", 1, "nav-link", "waves-light", "blackFont"], ["href", "#recensioni", "mdbWavesEffect", "", 1, "nav-link", "waves-light", "blackFont"], ["href", "#prezzi", "mdbWavesEffect", "", 1, "nav-link", "waves-light", "blackFont"], ["href", "#contatti", "mdbWavesEffect", "", 1, "nav-link", "waves-light", "blackFont"], ["id", "coverImg", 1, "view"], [1, "mask", "flex-center", "rgba-black-light"], ["data-wow-delay", "0.2s", 1, "wow", "fadeInDown", "animated", 2, "visibility", "visible", "animation-name", "fadeInDown", "animation-delay", "0.2s"], [1, "white-text", "display-5", "font-weight-bold", "centerForMobile"], [1, "container", "topMargin"], [1, "row"], [1, "col"], ["id", "chiSono"], ["data-wow-delay", "0.2s", 1, "text-center", "font-weight-bold", "wow", "fadeIn", "titleSection", 2, "visibility", "visible", "animation-name", "fadeIn", "animation-delay", "0.2s"], [1, "dark-grey-text", "text-justify"], ["id", "chiSonoImg", 1, "col-xl-4", "col-md-4", "mb-3", "text-center", "align-self-center", "hoverable"], ["id", "metodo", 2, "padding-top", "40px", "margin-top", "-40px"], ["id", "ilbox", 2, "padding-top", "40px", "margin-top", "-40px"], ["id", "recensioni", 2, "padding-top", "40px", "margin-top", "-40px"], ["id", "prezzi", 2, "padding-top", "40px", "margin-top", "-40px"], ["id", "contatti", 2, "padding-top", "40px", "margin-top", "-40px"], ["href", "http://www.emanuelecaloisi.it"], ["href", "mailto:info@emanuelecaloisi.it"], [1, "page-footer", "font-small", "cyan", "redGradient"], [1, "container"], [1, "col-md-12", "py-5"], [1, "mb-5", "flex-center"], ["href", "https://www.facebook.com/emanuele.caloisi", 1, "fb-ic"], [1, "fab", "fa-facebook-f", "fa-lg", "white-text", "mr-md-5", "mr-3", "fa-2x"], ["href", "https://www.instagram.com/emanuelecaloisi/?hl=it", 1, "ins-ic"], [1, "fab", "fa-instagram", "fa-lg", "white-text", "mr-md-5", "mr-3", "fa-2x"], ["href", "https://wa.me/393293671498", 1, "wha-ic"], [1, "fab", "fa-whatsapp", "fa-lg", "white-text", "fa-2x"], [1, "footer-copyright", "text-center", "py-3"], ["href", "https://mdbootstrap.com/"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "header");
@@ -398,51 +398,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 24);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "img", 25);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "div", 24);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 19);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 20);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "section", 25);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "section", 26);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "hr");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](67, "hr");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "h2", 22);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "h2", 22);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "Metodo");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Metodo");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](70, "hr");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 19);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 20);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "section", 27);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](74, "hr");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "h2", 22);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "Il Box");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](77, "hr");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](69, "hr");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -450,43 +424,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "div", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "div", 19);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "div", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 20);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "section", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "section", 26);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](81, "hr");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](73, "hr");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "h2", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "h2", 22);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "Recensioni");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](84, "hr");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Il Box");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "div", 19);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "div", 20);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "section", 29);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](88, "hr");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "h2", 22);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "Prezzi");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](91, "hr");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](76, "hr");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -494,61 +446,105 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "div", 19);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "div", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "div", 20);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "section", 30);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "section", 27);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](95, "hr");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](80, "hr");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "h2", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "h2", 22);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, "Contatti");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, "Recensioni");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](98, "hr");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "div", 19);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](100, "div", 20);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "div", 20);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "pre", 23);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "                Il nostro sito:\n\n                ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "a", 31);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "b");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "www.emanuelecaloisi.it");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](83, "hr");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "\n\n                La nostra email:\n\n                ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "a", 32);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div", 19);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "b");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "div", 20);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](110, "info@emanuelecaloisi.it");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "section", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](87, "hr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "h2", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "Prezzi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](90, "hr");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "\n              ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "div", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "section", 29);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](94, "hr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "h2", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "Contatti");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](97, "hr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "div", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](99, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "pre", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "                Il nostro sito:\n\n                ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "a", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "www.emanuelecaloisi.it");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](112, "div", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "\n\n                La nostra email:\n\n                ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "a", 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "info@emanuelecaloisi.it");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](110, "\n              ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](111, "div", 20);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -562,33 +558,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "footer", 33);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "footer", 32);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "div", 34);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "div", 33);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "div", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "div", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "div", 34);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 35);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 36);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "a", 36);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "a", 37);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](119, "i", 38);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](118, "i", 37);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "a", 39);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "a", 38);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](121, "i", 40);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "a", 41);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](123, "i", 42);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](120, "i", 39);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "a", 40);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](122, "i", 41);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -598,13 +592,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "div", 43);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](125, "All rights reserved \u2010 2019 \xA9 Emanuele Caloisi - Partita IVA: 12345678910 ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "div", 42);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "a", 44);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "All rights reserved \u2010 2019 \xA9 Emanuele Caloisi - Partita IVA: 12345678910 ");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, " www.emanuelecaloisi.it ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "a", 43);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, " www.emanuelecaloisi.it ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -617,14 +613,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("containerInside", false);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](62);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx.chiSono, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
         }
       },
       directives: [angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_2__["NavbarComponent"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_2__["LogoComponent"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_2__["LinksComponent"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_2__["WavesDirective"]],
-      styles: [".fill[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  overflow: hidden;\n}\n\n.fill[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  flex-shrink: 0;\n  width: 100%;\n  min-height: 100%;\n}\n\n.topMargin[_ngcontent-%COMP%] {\n  margin-top: 50px;\n}\n\n#provaLogo[_ngcontent-%COMP%] {\n  content: url('logo.png');\n}\n\n#intro[_ngcontent-%COMP%] {\n  background: url('newCoverImage3.jpg') no-repeat center fixed;\n  background-size: cover;\n}\n\nb[_ngcontent-%COMP%] {\n  font-weight: 900;\n}\n\nhr[_ngcontent-%COMP%] {\n  border-width: 5px;\n}\n\n\n\n.centerForMobile[_ngcontent-%COMP%] {\n  text-align: center;\n  font-family: EmanueleCaloisi, serif;\n}\n\n@media screen and (max-width: 600px) {\n  #intro[_ngcontent-%COMP%] {\n    background-attachment: scroll;\n  }\n}\n\npre[_ngcontent-%COMP%] {\n  font-family: Calibri, serif;\n}\n\n.titleSection[_ngcontent-%COMP%] {\n  font-family: Stencil, sans-serif;\n}\n\n.logo-style[_ngcontent-%COMP%] {\n  width: 10rem;\n}\n\na[_ngcontent-%COMP%] {\n  font-family: Arial, serif;\n}\n\n.redGradient[_ngcontent-%COMP%] {\n  background: linear-gradient(to right, #FFFFFF, #EF3B36);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvQzpcXFVzZXJzXFxnaXVsaWFuaXJpXFxEZXNrdG9wXFxTaXRvIEVtYW51ZWxlXFxlbWFudWVsZV9jYWxvaXNpL3NyY1xcYXBwXFxhcHAuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0VBQ0EsZ0JBQUE7QUNDRjs7QURFQTtFQUNFLGNBQUE7RUFDQSxXQUFBO0VBQ0EsZ0JBQUE7QUNDRjs7QURFQTtFQUNFLGdCQUFBO0FDQ0Y7O0FERUE7RUFDRSx3QkFBQTtBQ0NGOztBREVBO0VBQ0UsNERBQUE7RUFJQSxzQkFBQTtBQ0NGOztBREVBO0VBQ0UsZ0JBQUE7QUNDRjs7QURFQTtFQUNFLGlCQUFBO0FDQ0Y7O0FERUE7O0VBQUE7O0FBSUE7RUFDRSxrQkFBQTtFQUNBLG1DQUFBO0FDQUY7O0FER0E7RUFDRTtJQUNFLDZCQUFBO0VDQUY7QUFDRjs7QURHQTtFQUNFLDJCQUFBO0FDREY7O0FESUE7RUFDRSxnQ0FBQTtBQ0RGOztBRElBO0VBRUUsWUFBQTtBQ0ZGOztBREtBO0VBQ0UseUJBQUE7QUNGRjs7QURLQTtFQUNFLHVEQUFBO0FDRkYiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZmlsbCB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIG92ZXJmbG93OiBoaWRkZW5cclxufVxyXG5cclxuLmZpbGwgaW1nIHtcclxuICBmbGV4LXNocmluazogMDtcclxuICB3aWR0aDogMTAwJTtcclxuICBtaW4taGVpZ2h0OiAxMDAlXHJcbn1cclxuXHJcbi50b3BNYXJnaW4ge1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbn1cclxuXHJcbiNwcm92YUxvZ28ge1xyXG4gIGNvbnRlbnQ6IHVybCguLi9hc3NldHMvbG9nby5wbmcpO1xyXG59XHJcblxyXG4jaW50cm8ge1xyXG4gIGJhY2tncm91bmQ6IHVybCguLi9hc3NldHMvbmV3Q292ZXJJbWFnZTMuanBnKSBuby1yZXBlYXQgY2VudGVyIGZpeGVkO1xyXG4gIC13ZWJraXQtYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAtbW96LWJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgLW8tYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG59XHJcblxyXG5iIHtcclxuICBmb250LXdlaWdodDogOTAwO1xyXG59XHJcblxyXG5ociB7XHJcbiAgYm9yZGVyLXdpZHRoOiA1cHg7XHJcbn1cclxuXHJcbi8qbWFpbiB7XHJcbiAgcGFkZGluZy10b3A6IDQwcHg7XHJcbn0qL1xyXG5cclxuLmNlbnRlckZvck1vYmlsZSB7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIGZvbnQtZmFtaWx5OiBFbWFudWVsZUNhbG9pc2ksIHNlcmlmO1xyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA2MDBweCkge1xyXG4gICNpbnRybyB7XHJcbiAgICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IHNjcm9sbDtcclxuICB9XHJcbn1cclxuXHJcbnByZSB7XHJcbiAgZm9udC1mYW1pbHk6IENhbGlicmksIHNlcmlmXHJcbn1cclxuXHJcbi50aXRsZVNlY3Rpb24ge1xyXG4gIGZvbnQtZmFtaWx5OiBTdGVuY2lsLCBzYW5zLXNlcmlmO1xyXG59XHJcblxyXG4ubG9nby1zdHlsZSB7XHJcbiAgLy9oZWlnaHQ6IDIwJTtcclxuICB3aWR0aDogMTByZW1cclxufVxyXG5cclxuYSB7XHJcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBzZXJpZjtcclxufVxyXG5cclxuLnJlZEdyYWRpZW50IHtcclxuICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQodG8gcmlnaHQsICNGRkZGRkYsICNFRjNCMzYpO1xyXG59XHJcbiIsIi5maWxsIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIG92ZXJmbG93OiBoaWRkZW47XG59XG5cbi5maWxsIGltZyB7XG4gIGZsZXgtc2hyaW5rOiAwO1xuICB3aWR0aDogMTAwJTtcbiAgbWluLWhlaWdodDogMTAwJTtcbn1cblxuLnRvcE1hcmdpbiB7XG4gIG1hcmdpbi10b3A6IDUwcHg7XG59XG5cbiNwcm92YUxvZ28ge1xuICBjb250ZW50OiB1cmwoLi4vYXNzZXRzL2xvZ28ucG5nKTtcbn1cblxuI2ludHJvIHtcbiAgYmFja2dyb3VuZDogdXJsKC4uL2Fzc2V0cy9uZXdDb3ZlckltYWdlMy5qcGcpIG5vLXJlcGVhdCBjZW50ZXIgZml4ZWQ7XG4gIC13ZWJraXQtYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgLW1vei1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAtby1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xufVxuXG5iIHtcbiAgZm9udC13ZWlnaHQ6IDkwMDtcbn1cblxuaHIge1xuICBib3JkZXItd2lkdGg6IDVweDtcbn1cblxuLyptYWluIHtcbiAgcGFkZGluZy10b3A6IDQwcHg7XG59Ki9cbi5jZW50ZXJGb3JNb2JpbGUge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtZmFtaWx5OiBFbWFudWVsZUNhbG9pc2ksIHNlcmlmO1xufVxuXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA2MDBweCkge1xuICAjaW50cm8ge1xuICAgIGJhY2tncm91bmQtYXR0YWNobWVudDogc2Nyb2xsO1xuICB9XG59XG5wcmUge1xuICBmb250LWZhbWlseTogQ2FsaWJyaSwgc2VyaWY7XG59XG5cbi50aXRsZVNlY3Rpb24ge1xuICBmb250LWZhbWlseTogU3RlbmNpbCwgc2Fucy1zZXJpZjtcbn1cblxuLmxvZ28tc3R5bGUge1xuICB3aWR0aDogMTByZW07XG59XG5cbmEge1xuICBmb250LWZhbWlseTogQXJpYWwsIHNlcmlmO1xufVxuXG4ucmVkR3JhZGllbnQge1xuICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQodG8gcmlnaHQsICNGRkZGRkYsICNFRjNCMzYpO1xufSJdfQ== */"]
+      styles: [".fill[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  overflow: hidden;\n}\n\n.fill[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  flex-shrink: 0;\n  width: 100%;\n  min-height: 100%;\n}\n\n.blackFont[_ngcontent-%COMP%] {\n  color: #404040 !important;\n  font-weight: bold;\n}\n\n.topMargin[_ngcontent-%COMP%] {\n  margin-top: 50px;\n}\n\nb[_ngcontent-%COMP%] {\n  font-weight: 900;\n}\n\nhr[_ngcontent-%COMP%] {\n  border-width: 5px;\n}\n\n\n\n.centerForMobile[_ngcontent-%COMP%] {\n  text-align: center;\n  font-family: EmanueleCaloisi, serif;\n  margin-top: 110px;\n}\n\n@media screen and (max-width: 600px) {\n  #coverImg[_ngcontent-%COMP%] {\n    background-attachment: scroll;\n  }\n}\n\npre[_ngcontent-%COMP%] {\n  font-family: Calibri, serif;\n}\n\n.titleSection[_ngcontent-%COMP%] {\n  font-family: Stencil, sans-serif;\n}\n\n.logo-style[_ngcontent-%COMP%] {\n  width: 10rem;\n}\n\na[_ngcontent-%COMP%] {\n  font-family: Arial, serif;\n}\n\n.redGradient[_ngcontent-%COMP%] {\n  background: linear-gradient(to right, #FFFFFF, #EF3B36);\n}\n\n#logoImg[_ngcontent-%COMP%] {\n  content: url('logo.png');\n}\n\n#coverImg[_ngcontent-%COMP%] {\n  background: url('newCoverImage3.jpg') no-repeat center fixed;\n  background-size: cover;\n}\n\n#chiSonoImg[_ngcontent-%COMP%] {\n  content: url('chi_sono0.jpg');\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvQzpcXFVzZXJzXFxnaXVsaWFuaXJpXFxEZXNrdG9wXFxTaXRvIEVtYW51ZWxlXFxlbWFudWVsZV9jYWxvaXNpL3NyY1xcYXBwXFxhcHAuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0VBQ0EsZ0JBQUE7QUNDRjs7QURFQTtFQUNFLGNBQUE7RUFDQSxXQUFBO0VBQ0EsZ0JBQUE7QUNDRjs7QURFQTtFQUNFLHlCQUFBO0VBQ0EsaUJBQUE7QUNDRjs7QURFQTtFQUNFLGdCQUFBO0FDQ0Y7O0FERUE7RUFDRSxnQkFBQTtBQ0NGOztBREVBO0VBQ0UsaUJBQUE7QUNDRjs7QURFQTs7RUFBQTs7QUFJQTtFQUNFLGtCQUFBO0VBQ0EsbUNBQUE7RUFDQSxpQkFBQTtBQ0FGOztBREdBO0VBQ0U7SUFDRSw2QkFBQTtFQ0FGO0FBQ0Y7O0FER0E7RUFDRSwyQkFBQTtBQ0RGOztBRElBO0VBQ0UsZ0NBQUE7QUNERjs7QURJQTtFQUVFLFlBQUE7QUNGRjs7QURLQTtFQUNFLHlCQUFBO0FDRkY7O0FES0E7RUFDRSx1REFBQTtBQ0ZGOztBREtBO0VBQ0Usd0JBQUE7QUNGRjs7QURLQTtFQUNFLDREQUFBO0VBSUEsc0JBQUE7QUNGRjs7QURLQTtFQUNFLDZCQUFBO0FDRkYiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZmlsbCB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIG92ZXJmbG93OiBoaWRkZW5cclxufVxyXG5cclxuLmZpbGwgaW1nIHtcclxuICBmbGV4LXNocmluazogMDtcclxuICB3aWR0aDogMTAwJTtcclxuICBtaW4taGVpZ2h0OiAxMDAlXHJcbn1cclxuXHJcbi5ibGFja0ZvbnQge1xyXG4gIGNvbG9yOiAjNDA0MDQwICFpbXBvcnRhbnQ7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuXHJcbi50b3BNYXJnaW4ge1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbn1cclxuXHJcbmIge1xyXG4gIGZvbnQtd2VpZ2h0OiA5MDA7XHJcbn1cclxuXHJcbmhyIHtcclxuICBib3JkZXItd2lkdGg6IDVweDtcclxufVxyXG5cclxuLyptYWluIHtcclxuICBwYWRkaW5nLXRvcDogNDBweDtcclxufSovXHJcblxyXG4uY2VudGVyRm9yTW9iaWxlIHtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgZm9udC1mYW1pbHk6IEVtYW51ZWxlQ2Fsb2lzaSwgc2VyaWY7XHJcbiAgbWFyZ2luLXRvcDogMTEwcHg7XHJcbn1cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XHJcbiAgI2NvdmVySW1nIHtcclxuICAgIGJhY2tncm91bmQtYXR0YWNobWVudDogc2Nyb2xsO1xyXG4gIH1cclxufVxyXG5cclxucHJlIHtcclxuICBmb250LWZhbWlseTogQ2FsaWJyaSwgc2VyaWZcclxufVxyXG5cclxuLnRpdGxlU2VjdGlvbiB7XHJcbiAgZm9udC1mYW1pbHk6IFN0ZW5jaWwsIHNhbnMtc2VyaWY7XHJcbn1cclxuXHJcbi5sb2dvLXN0eWxlIHtcclxuICAvL2hlaWdodDogMjAlO1xyXG4gIHdpZHRoOiAxMHJlbVxyXG59XHJcblxyXG5hIHtcclxuICBmb250LWZhbWlseTogQXJpYWwsIHNlcmlmO1xyXG59XHJcblxyXG4ucmVkR3JhZGllbnQge1xyXG4gIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCh0byByaWdodCwgI0ZGRkZGRiwgI0VGM0IzNik7XHJcbn1cclxuXHJcbiNsb2dvSW1nIHtcclxuICBjb250ZW50OiB1cmwoLi4vYXNzZXRzL2xvZ28ucG5nKTtcclxufVxyXG5cclxuI2NvdmVySW1nIHtcclxuICBiYWNrZ3JvdW5kOiB1cmwoLi4vYXNzZXRzL25ld0NvdmVySW1hZ2UzLmpwZykgbm8tcmVwZWF0IGNlbnRlciBmaXhlZDtcclxuICAtd2Via2l0LWJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgLW1vei1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gIC1vLWJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxufVxyXG5cclxuI2NoaVNvbm9JbWcge1xyXG4gIGNvbnRlbnQ6IHVybCguLi9hc3NldHMvY2hpX3Nvbm8wLmpwZyk7XHJcbn1cclxuIiwiLmZpbGwge1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbn1cblxuLmZpbGwgaW1nIHtcbiAgZmxleC1zaHJpbms6IDA7XG4gIHdpZHRoOiAxMDAlO1xuICBtaW4taGVpZ2h0OiAxMDAlO1xufVxuXG4uYmxhY2tGb250IHtcbiAgY29sb3I6ICM0MDQwNDAgIWltcG9ydGFudDtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi50b3BNYXJnaW4ge1xuICBtYXJnaW4tdG9wOiA1MHB4O1xufVxuXG5iIHtcbiAgZm9udC13ZWlnaHQ6IDkwMDtcbn1cblxuaHIge1xuICBib3JkZXItd2lkdGg6IDVweDtcbn1cblxuLyptYWluIHtcbiAgcGFkZGluZy10b3A6IDQwcHg7XG59Ki9cbi5jZW50ZXJGb3JNb2JpbGUge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtZmFtaWx5OiBFbWFudWVsZUNhbG9pc2ksIHNlcmlmO1xuICBtYXJnaW4tdG9wOiAxMTBweDtcbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNjAwcHgpIHtcbiAgI2NvdmVySW1nIHtcbiAgICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IHNjcm9sbDtcbiAgfVxufVxucHJlIHtcbiAgZm9udC1mYW1pbHk6IENhbGlicmksIHNlcmlmO1xufVxuXG4udGl0bGVTZWN0aW9uIHtcbiAgZm9udC1mYW1pbHk6IFN0ZW5jaWwsIHNhbnMtc2VyaWY7XG59XG5cbi5sb2dvLXN0eWxlIHtcbiAgd2lkdGg6IDEwcmVtO1xufVxuXG5hIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBzZXJpZjtcbn1cblxuLnJlZEdyYWRpZW50IHtcbiAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KHRvIHJpZ2h0LCAjRkZGRkZGLCAjRUYzQjM2KTtcbn1cblxuI2xvZ29JbWcge1xuICBjb250ZW50OiB1cmwoLi4vYXNzZXRzL2xvZ28ucG5nKTtcbn1cblxuI2NvdmVySW1nIHtcbiAgYmFja2dyb3VuZDogdXJsKC4uL2Fzc2V0cy9uZXdDb3ZlckltYWdlMy5qcGcpIG5vLXJlcGVhdCBjZW50ZXIgZml4ZWQ7XG4gIC13ZWJraXQtYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgLW1vei1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAtby1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xufVxuXG4jY2hpU29ub0ltZyB7XG4gIGNvbnRlbnQ6IHVybCguLi9hc3NldHMvY2hpX3Nvbm8wLmpwZyk7XG59Il19 */"]
     });
     /*@__PURE__*/
 
