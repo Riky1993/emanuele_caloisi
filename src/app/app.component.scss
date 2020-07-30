@@ -15,6 +15,10 @@
   margin-top: 50px;
 }
 
+#provaLogo {
+  content: url(../assets/logo.png);
+}
+
 #intro {
   background: url(../assets/newCoverImage3.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
