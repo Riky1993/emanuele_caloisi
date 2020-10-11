@@ -81,6 +81,64 @@ a {
   content: url(../assets/chi_sono0.jpg);
 }
 
+#mattImg {
+  content: url(../assets/Recensioni/mattPhoto.jpg);
+}
+
+#giovImg {
+  content: url(../assets/Recensioni/giovPhoto.jpg);
+}
+
+#pinaImg {
+  content: url(../assets/Recensioni/pinaPhoto.jpg);
+}
+
+#gennImg {
+  content: url(../assets/Recensioni/gennPhoto.jpg);
+}
+
+#martImg {
+  content: url(../assets/Recensioni/martPhoto.jpg);
+}
+
+#daniImg {
+  content: url(../assets/Recensioni/daniPhoto.jpg);
+}
+
+#imgCarousel1 {
+  content: url(../assets/Carousel/imgCarousel1.jpg);
+}
+
+#imgCarousel2 {
+  content: url(../assets/Carousel/imgCarousel2.JPG);
+}
+
+#imgCarousel3 {
+  content: url(../assets/Carousel/imgCarousel3.jpg);
+}
+
+#imgCarousel4 {
+  content: url(../assets/Carousel/imgCarousel4.JPG);
+}
+
+#imgCarousel5 {
+  content: url(../assets/Carousel/imgCarousel5.JPG);
+}
+
+/* Deccommentare per impostare massima altezza a foto carousel
+mdb-carousel-item {
+  max-height: 400px;
+}
+*/
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 7px;
+}
+
 ////////////////// CSS PER SEZIONE RELATIVA AI PREZZI //////////////////
 
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
