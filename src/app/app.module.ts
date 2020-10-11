@@ -4,15 +4,19 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {MDBBootstrapModule} from 'angular-bootstrap-md';
+import {HttpClientModule} from '@angular/common/http';
+import {InstagramPostDirective} from './instagram-post.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InstagramPostDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
