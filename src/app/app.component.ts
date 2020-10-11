@@ -1,5 +1,6 @@
-import {AfterContentInit, Component, ViewChild} from '@angular/core';
+import {AfterContentInit, Component, OnInit, ViewChild} from '@angular/core';
 import {NavbarComponent as navmdb} from 'angular-bootstrap-md';
+import {DeviceDetectorService} from 'ngx-device-detector';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,7 @@ export class AppComponent implements AfterContentInit {
   @ViewChild('navbarid')
   private navbaridRef: navmdb;
 
-  constructor() {
+  constructor(private deviceService: DeviceDetectorService) {
   }
 
   ngAfterContentInit(): void {

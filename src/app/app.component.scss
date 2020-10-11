@@ -107,27 +107,32 @@ a {
 
 #imgCarousel1 {
   content: url(../assets/Carousel/imgCarousel1.jpg);
-  max-width: 100%;
+  width: 100%;
 }
 
 #imgCarousel2 {
   content: url(../assets/Carousel/imgCarousel2.JPG);
-  max-width: 100%;
+  width: 100%;
 }
 
 #imgCarousel3 {
   content: url(../assets/Carousel/imgCarousel3.jpg);
-  max-width: 100%;
+  width: 100%;
 }
 
 #imgCarousel4 {
   content: url(../assets/Carousel/imgCarousel4.JPG);
-  max-width: 100%;
+  width: 100%;
 }
 
 #imgCarousel5 {
   content: url(../assets/Carousel/imgCarousel5.JPG);
-  max-width: 100%;
+  width: 100%;
+}
+
+.mobileCarousel {
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 /* Deccommentare per impostare massima altezza a foto carousel
