@@ -12,7 +12,10 @@ export class AppComponent implements AfterContentInit {
   @ViewChild('navbarid')
   private navbaridRef: navmdb;
 
-  constructor(private deviceService: DeviceDetectorService) {
+  constructor(public deviceService: DeviceDetectorService) {
+    console.log(deviceService.isDesktop())
+    console.log(deviceService.isMobile())
+
   }
 
   ngAfterContentInit(): void {
