@@ -1,7 +1,6 @@
 import {AfterContentInit, Component, OnInit, ViewChild} from '@angular/core';
 import {NavbarComponent as navmdb} from 'angular-bootstrap-md';
 import {DeviceDetectorService} from 'ngx-device-detector';
-declare var jQuery: any;
 
 @Component({
   selector: 'app-root',
@@ -28,17 +27,5 @@ export class AppComponent implements AfterContentInit {
     if (this.navbaridRef.shown) {
       this.navbaridRef.toggle();
     }
-  }
-
-  onResize($event: any) {
-    //alert("hey");
-    //Do the reload of plugin
-    var new_width = jQuery("#facebook").parent().width();
-    //alert(new_width);
-    jQuery("#facebook").css("width",new_width);
-    var url =  jQuery('#facebook').attr('src').split("&width=");
-    //alert(url[0]);
-    url = url[0] + '&width=' + new_width;
-    jQuery('#facebook').attr( 'src', url);
   }
 }
