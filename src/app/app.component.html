@@ -177,23 +177,28 @@
 
         <mdb-carousel [animation]="'slide'" [interval]="false">
           <mdb-carousel-item>
-            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center" id="imgCarousel2"></div>
+            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
+                 id="imgCarousel2"></div>
             <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel2"></div>
           </mdb-carousel-item>
           <mdb-carousel-item>
-            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center" id="imgCarousel3"></div>
+            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
+                 id="imgCarousel3"></div>
             <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel3"></div>
           </mdb-carousel-item>
           <mdb-carousel-item>
-            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center" id="imgCarousel4"></div>
+            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
+                 id="imgCarousel4"></div>
             <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel4"></div>
           </mdb-carousel-item>
           <mdb-carousel-item>
-            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center" id="imgCarousel5"></div>
-            <div *ngIf="!deviceService.isMobile()" class="d-block w-100"  id="imgCarousel5"></div>
+            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
+                 id="imgCarousel5"></div>
+            <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel5"></div>
           </mdb-carousel-item>
           <mdb-carousel-item>
-            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center" id="imgCarousel1"></div>
+            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
+                 id="imgCarousel1"></div>
             <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel1"></div>
           </mdb-carousel-item>
         </mdb-carousel>
@@ -545,43 +550,18 @@
 
           <div class="row">
             <div class="col">
-              <div class="containerSocialBox">
-                <div id="fb-root" class=" fb_reset">
-                  <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
-                    <div></div>
-                  </div>
-                </div>
-
-                <div class="fb-page fb_iframe_widget"
-                     data-href="https://www.facebook.com/emanuelecaloisipersonaltrainer/" data-tabs="timeline"
-                     data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true"
-                     data-hide-cover="true" data-show-facepile="false" fb-xfbml-state="rendered">
-                  <span style="vertical-align: bottom; width: 500px; height: 500px;">
-                    <iframe name="ffaa2f6396f954"
-                            width="500px"
-                            height="500px"
-                            data-testid="fb:page Facebook Social Plugin"
-                            title="fb:page Facebook Social Plugin"
-                            frameborder="0"
-                            allowtransparency="true"
-                            allowfullscreen="true"
-                            scrolling="no"
-                            allow="encrypted-media"
-                            src="https://web.facebook.com/v3.3/plugins/page.php?adapt_container_width=true&amp;app_id=301480450250930&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df18fcbfe4aa2cc4%26domain%3Dwww.emanuelecaloisi.it%26origin%3Dhttps%253A%252F%252Fwww.emanuelecaloisi.it%252Ff269df31b78dec8%26relation%3Dparent.parent&amp;container_width=748&amp;height=500&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2Femanuelecaloisipersonaltrainer%2F&amp;locale=it_IT&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=500"
-                            style="border: none; visibility: visible; width: 500px; height: 500px;"
-                            class="">
-                    </iframe>
-                  </span>
-                </div>
-              </div>
+              <iframe id="facebook" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no"
+                      title="fb:page Facebook Social Plugin" (window:resize)="onResize($event)"
+                      src="https://web.facebook.com/v3.3/plugins/page.php?adapt_container_width=true&amp;app_id=301480450250930&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df18fcbfe4aa2cc4%26domain%3Dwww.emanuelecaloisi.it%26origin%3Dhttps%253A%252F%252Fwww.emanuelecaloisi.it%252Ff269df31b78dec8%26relation%3Dparent.parent&amp;height=500&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2Femanuelecaloisipersonaltrainer%2F&amp;locale=it_IT&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=500"
+                      style="border: none; visibility: visible; width: 500px; height: 500px;" class=""></iframe>
             </div>
 
-            <div class="col">
+            <div class="col" style="text-align: -webkit-right;">
               <div class="containerSocialBox">
                 <blockquote class="instagram-media" data-instgrm-captioned
                             data-instgrm-permalink="https://www.instagram.com/p/CFiGS3fCrOw/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_loading_state_script"
                             data-instgrm-version="10"
-                            style="height:500px; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                            style="height:500px; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:500px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
 
                 </blockquote>
               </div>
