@@ -9,3 +9,7 @@
 5 - This command will create a new branch gh-pages in your repository and automatically push the dist build in that branch.
 
 6 - Just navigate to https://<username>.github.io/<reponame>/
+
+
+ng build --prod --base-href https://riky1993.github.io/emanuele_caloisi/
+angular-cli-ghpages -d dist/emanuele-caloisi/ --no-silent
