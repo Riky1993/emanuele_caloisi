@@ -7,7 +7,8 @@
     <!-- Navbar brand -->
     <mdb-navbar-brand>
       <a class="navbar-brand" href="#">
-        <div class="logo-style" id="logoImg"></div>
+        <!--<div class="logo-style" id="logoImg"></div>-->
+        <img class="logo-style" src="../assets/logo.png" alt="Logo">
       </a>
     </mdb-navbar-brand>
 
@@ -24,7 +25,7 @@
         <li class="nav-item">
           <a href="#chiSono" class="nav-link waves-light blackFont" mdbWavesEffect>
             <!--<mdb-icon fas icon="user"></mdb-icon>-->
-            CHI SONO</a>
+            ABOUT ME</a>
         </li>
         <li class="nav-item">
           <a href="#metodo" class="nav-link waves-light blackFont" mdbWavesEffect>
@@ -84,7 +85,7 @@
         <section id="chiSono">
           <hr>
           <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
-              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Chi Sono</h2>
+              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">About Me</h2>
           <hr>
           <p class="dark-grey-text text-justify">
             Sono <b>Emanuele Caloisi</b>, nato a Roma classe 1987,
@@ -142,7 +143,8 @@
         </section>
       </div>
 
-      <div class="col-xl-4 col-md-4 mb-3 text-center align-self-center hoverable" id="chiSonoImg"></div>
+      <img class="col-xl-4 col-md-4 mb-3 text-center align-self-center hoverable" src="../assets/chi_sono1.jpg" alt="AboutMe">
+      <!--<div class="col-xl-4 col-md-4 mb-3 text-center align-self-center hoverable" id="chiSonoImg"></div>-->
 
     </div>
 
@@ -177,29 +179,34 @@
 
         <mdb-carousel [animation]="'slide'" [interval]="false">
           <mdb-carousel-item>
-            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
+            <!--<div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
                  id="imgCarousel2"></div>
-            <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel2"></div>
+            <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel2"></div>-->
+            <img [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}" src="../assets/Carousel/imgCarousel2.JPG" alt="Carousel_1">
           </mdb-carousel-item>
           <mdb-carousel-item>
-            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
+            <!--<div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
                  id="imgCarousel3"></div>
-            <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel3"></div>
+            <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel3"></div>-->
+            <img [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}" src="../assets/Carousel/imgCarousel3.JPG" alt="Carousel_2">
           </mdb-carousel-item>
           <mdb-carousel-item>
-            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
+            <!--<div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
                  id="imgCarousel4"></div>
-            <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel4"></div>
+            <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel4"></div>-->
+            <img [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}" src="../assets/Carousel/imgCarousel4.jpg" alt="Carousel_3">
           </mdb-carousel-item>
           <mdb-carousel-item>
-            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
+            <!--<div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
                  id="imgCarousel5"></div>
-            <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel5"></div>
+            <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel5"></div>-->
+            <img [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}" src="../assets/Carousel/imgCarousel5.jpg" alt="Carousel_4">
           </mdb-carousel-item>
           <mdb-carousel-item>
-            <div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
+            <!--<div *ngIf="deviceService.isMobile()" class="col-xl-4 col-md-4 mb-3 text-center align-self-center"
                  id="imgCarousel1"></div>
-            <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel1"></div>
+            <div *ngIf="!deviceService.isMobile()" class="d-block w-100" id="imgCarousel1"></div>-->
+            <img [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}" src="../assets/Carousel/imgCarousel1.jpg" alt="Carousel_5">
           </mdb-carousel-item>
         </mdb-carousel>
       </div>
@@ -221,7 +228,8 @@
                 <div class="card-up indigo lighten-1"></div>
                 <!-- Avatar -->
                 <div class="avatar mx-auto white">
-                  <div class="avatar rounded-circle" id="mattImg"></div>
+                  <img class="avatar rounded-circle" src="../assets/Recensioni/mattPhoto.jpg" alt="Matteo">
+                  <!--<div class="avatar rounded-circle" id="mattImg"></div>-->
                 </div>
                 <!-- Content -->
                 <div class="card-body">
@@ -250,7 +258,8 @@
                 <div class="card-up indigo lighten-1"></div>
                 <!-- Avatar -->
                 <div class="avatar mx-auto white">
-                  <div class="avatar rounded-circle" id="giovImg"></div>
+                  <img class="avatar rounded-circle" src="../assets/Recensioni/giovPhoto.jpg" alt="Giovanni">
+                  <!--<div class="avatar rounded-circle" id="giovImg"></div>-->
                 </div>
                 <!-- Content -->
                 <div class="card-body">
@@ -280,7 +289,8 @@
                 <div class="card-up indigo lighten-1"></div>
                 <!-- Avatar -->
                 <div class="avatar mx-auto white">
-                  <div class="avatar rounded-circle" id="gennImg"></div>
+                  <img class="avatar rounded-circle" src="../assets/Recensioni/gennPhoto.jpg" alt="Gennaro">
+                  <!--<div class="avatar rounded-circle" id="gennImg"></div>-->
                 </div>
                 <!-- Content -->
                 <div class="card-body">
@@ -312,7 +322,8 @@
                 <div class="card-up indigo lighten-1"></div>
                 <!-- Avatar -->
                 <div class="avatar mx-auto white">
-                  <div class="avatar rounded-circle" id="pinaImg"></div>
+                  <img class="avatar rounded-circle" src="../assets/Recensioni/pinaPhoto.jpg" alt="Pina">
+                  <!--<div class="avatar rounded-circle" id="pinaImg"></div>-->
                 </div>
                 <!-- Content -->
                 <div class="card-body">
@@ -343,7 +354,8 @@
                 <div class="card-up indigo lighten-1"></div>
                 <!-- Avatar -->
                 <div class="avatar mx-auto white">
-                  <div class="avatar rounded-circle" id="martImg"></div>
+                  <img class="avatar rounded-circle" src="../assets/Recensioni/martPhoto.jpg" alt="Martina">
+                  <!--<div class="avatar rounded-circle" id="martImg"></div>-->
                 </div>
                 <!-- Content -->
                 <div class="card-body">
@@ -375,7 +387,8 @@
                 <div class="card-up indigo lighten-1"></div>
                 <!-- Avatar -->
                 <div class="avatar mx-auto white">
-                  <div class="avatar rounded-circle" id="daniImg"></div>
+                  <img class="avatar rounded-circle" src="../assets/Recensioni/daniPhoto.jpg" alt="Daniele">
+                  <!--<div class="avatar rounded-circle" id="daniImg"></div>-->
                 </div>
                 <!-- Content -->
                 <div class="card-body">

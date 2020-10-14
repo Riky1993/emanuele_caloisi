@@ -7,15 +7,18 @@ import {DeviceDetectorService} from 'ngx-device-detector';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements AfterContentInit {
+export class AppComponent implements OnInit, AfterContentInit {
   title = 'emanuele-caloisi';
   @ViewChild('navbarid')
   private navbaridRef: navmdb;
+  public isMobile: boolean;
 
   constructor(public deviceService: DeviceDetectorService) {
-    console.log(deviceService.isDesktop())
-    console.log(deviceService.isMobile())
+    this.isMobile = false;
+  }
 
+  ngOnInit(): void {
+    this.isMobile = this.deviceService.isMobile();
   }
 
   ngAfterContentInit(): void {

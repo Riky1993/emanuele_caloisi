@@ -69,9 +69,9 @@ a {
   background: linear-gradient(to right, #FFFFFF, #EF3B36);
 }
 
-#logoImg {
+/*#logoImg {
   content: url(../assets/logo.png);
-}
+}*/
 
 #coverImg {
   background: url(../assets/cover_image.jpg) no-repeat center;
@@ -81,7 +81,7 @@ a {
   background-size: cover;
 }
 
-#chiSonoImg {
+/*#chiSonoImg {
   content: url(../assets/chi_sono1.jpg);
 }
 
@@ -130,14 +130,9 @@ a {
 }
 
 #imgCarousel5 {
-  content: url(../assets/ARID7053.jpg);
+  content: url(../assets/Carousel/imgCarousel5.jpg);
   width: 100%;
-}
-
-.mobileCarousel {
-  max-width: 300px;
-  margin: 0 auto;
-}
+}*/
 
 /* Deccommentare per impostare massima altezza a foto carousel
 mdb-carousel-item {
