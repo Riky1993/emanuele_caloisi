@@ -48,7 +48,7 @@ hr {
   }
 }
 
-pre {
+.contattiFont {
   font-family: Calibri, serif
 }
 
@@ -69,10 +69,6 @@ a {
   background: linear-gradient(to right, #FFFFFF, #EF3B36);
 }
 
-/*#logoImg {
-  content: url(../assets/logo.png);
-}*/
-
 #coverImg {
   background: url(../assets/cover_image.jpg) no-repeat center;
   -webkit-background-size: cover;
@@ -80,59 +76,6 @@ a {
   -o-background-size: cover;
   background-size: cover;
 }
-
-/*#chiSonoImg {
-  content: url(../assets/chi_sono1.jpg);
-}
-
-#mattImg {
-  content: url(../assets/Recensioni/mattPhoto.jpg);
-}
-
-#giovImg {
-  content: url(../assets/Recensioni/giovPhoto.jpg);
-}
-
-#pinaImg {
-  content: url(../assets/Recensioni/pinaPhoto.jpg);
-}
-
-#gennImg {
-  content: url(../assets/Recensioni/gennPhoto.jpg);
-}
-
-#martImg {
-  content: url(../assets/Recensioni/martPhoto.jpg);
-}
-
-#daniImg {
-  content: url(../assets/Recensioni/daniPhoto.jpg);
-}
-
-#imgCarousel1 {
-  content: url(../assets/Carousel/imgCarousel1.jpg);
-  width: 100%;
-}
-
-#imgCarousel2 {
-  content: url(../assets/Carousel/imgCarousel2.JPG);
-  width: 100%;
-}
-
-#imgCarousel3 {
-  content: url(../assets/Carousel/imgCarousel3.jpg);
-  width: 100%;
-}
-
-#imgCarousel4 {
-  content: url(../assets/Carousel/imgCarousel4.JPG);
-  width: 100%;
-}
-
-#imgCarousel5 {
-  content: url(../assets/Carousel/imgCarousel5.jpg);
-  width: 100%;
-}*/
 
 /* Deccommentare per impostare massima altezza a foto carousel
 mdb-carousel-item {
