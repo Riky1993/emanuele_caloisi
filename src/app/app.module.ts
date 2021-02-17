@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import {MDBBootstrapModule} from 'angular-bootstrap-md';
 import {HttpClientModule} from '@angular/common/http';
 import {InstagramPostDirective} from './instagram-post.directive';
+import { EmbedSocialWidgetComponent } from './embed-social-widget/embed-social-widget.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InstagramPostDirective
+    InstagramPostDirective,
+    EmbedSocialWidgetComponent
   ],
   imports: [
     BrowserModule,
