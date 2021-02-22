@@ -15,6 +15,7 @@ export class EmbedSocialWidgetComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.isMobile = this.deviceService.isMobile();
     (function(d, s, id) {
       var js;
       if (d.getElementById(id)) {
@@ -25,6 +26,8 @@ export class EmbedSocialWidgetComponent implements OnInit {
       js.src = 'https://embedsocial.com/cdn/ht.js';
       d.getElementsByTagName('head')[0].appendChild(js);
     }(document, 'script', 'EmbedSocialHashtagScript'));
+
+    console.log(document.getElementsByClassName("es-free table-cell"));
   }
 
 }
