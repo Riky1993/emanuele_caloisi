@@ -84,79 +84,34 @@
 <main>
 
   <div class="container topMargin">
+    <div id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne"
+               aria-expanded="false" aria-controls="collapseOne">
+              Collapsible Group Item #1
+            </a>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+            you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <div class="row">
       <div class="col">
-        <section id="chiSono">
-          <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
-              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">About Me</h2>
-          <hr>
-          <p class="dark-grey-text text-justify">
-            Sono <b>Emanuele Caloisi</b>, nato a Roma classe 1987. Attualmente sono l’Head coach e Owner di
-            CrossFit Torrevecchia. Il mio amore per lo sport nasce sin da piccolo avendone praticati tra i
-            più disparati, dal nuoto al calcio, passando per il karate ed il pugilato, ottenendo sempre
-            buoni risultati agonistici. Proprio grazie a quest’ultimo, nel 2001 mi resi conto di cosa mi
-            appassionava e di cosa mi rendesse felice: sudore, sacrificio e voglia di mettermi in gioco. La
-            mia dedizione verso quello sport cresceva giorno per giorno, dando sfogo alla mia iperattività
-            e tirando fuori il meglio di me stesso!
-          </p>
-          <p class="dark-grey-text text-justify">
-            Purtroppo, a causa di un brutto infortunio alla schiena nel 2008, tutto questo venne
-            improvvisamente interrotto e ciò ha fatto sì che il mio percorso nel mondo del pugilato giunse
-            al termine. Mentre ero impegnato con la mia riatletizzazione in palestra, la mia attenzione si
-            spostò verso una nuova disciplina che in Italia si stava evolvendo proprio in quegli anni: le arti
-            marziali miste.
-          </p>
-          <p class="dark-grey-text text-justify">
-            Nel 2009 partecipai ad un camp sulle MMA, dove scoprii la bellezza della preparazione atletica
-            dei fighter (metodologia molto simile al CrossFit, sport ancora quasi sconosciuto in Italia) ed in
-            particolare mi appassionai al Brazilian Jiu Jitzu sport che praticai per circa 1 anno e mezzo.
-          </p>
-          <p class="dark-grey-text text-justify">
-            Nel 2010 cominciai a lavorare come agente di commercio presso una nota multinazionale.
-          </p>
-          <p class="dark-grey-text text-justify">
-            Successivamente, nel 2012 fui costretto a fermarmi del tutto con gli sport da combattimento
-            per colpa di un intervento maxillo-facciale.
-          </p>
-          <p class="dark-grey-text text-justify">
-            In quell’anno bruttissimo però, ebbi come un’illuminazione: capii che questa mia passione
-            <b>doveva</b> diventare qualcosa di più. Decisi quindi di iscrivermi alla ISSA (scuola leader nelle
-            certificazioni del settore Fitness) dove conseguii il diploma di primo livello nel 2013. Da qui,
-            decisi di portare avanti la mia formazione, frequentando costantemente corsi di
-            aggiornamento, ed ancora oggi rimane uno dei miei punti cardine.
-          </p>
-          <p class="dark-grey-text text-justify">
-            A questo punto della mia vita mi trovai difronte ad una scelta: rinunciare ad un contratto a
-            tempo indeterminato con numerosi benefits, oppure immergermi completamente nel mondo
-            dello sport, non più come praticante, ma come coach professionista!
-          </p>
-          <p class="dark-grey-text text-justify">
-            Capii che il mio scopo era quello di trasmettere anche ad altri la mia passione per lo sport,
-            quindi decisi di licenziarmi e di buttarmi in una nuova avventura offerta da una grande
-            multinazionale del fitness, la Virgin Active.
-          </p>
-          <p class="dark-grey-text text-justify">
-            In quello stesso anno ho conosciuto Viviana, futura madre dei miei due bambini, Alessandro e
-            Beatrice. Un giorno, nel 2014 fù proprio lei a propormi di fare una lezione di CrossFit, dove
-            ritrovai quella magia che anni prima mi fece innamorare del pugilato.
-          </p>
-          <p class="dark-grey-text text-justify">
-            Rimasi talmente estasiato che dalla sera stessa iniziai a documentarmi su tutto ciò che era il
-            CrossFit. Mi resi conto che il mio pensiero e la metodologia e filosofia d’allenamento applicate
-            a questo sport si sposavano a 360 gradi, così nel Gennaio 2015 conseguii il CrossFit Level I.
-          </p>
-          <p class="dark-grey-text text-justify">
-            Da lì in poi iniziai a lavorare per vari box di Roma come coach, ed in palestra come Personal
-            Trainer. Presi parte a varie competizioni Nazionali di CrossFit e continuai a formarmi sempre
-            di più, iscrivendomi anche alla facoltà di Scienze Motorie.
-          </p>
-          <p class="dark-grey-text text-justify">
-            Dopo aver allenato centinaia di persone, tra atleti agonisti e persone che vogliono
-            semplicemente mettersi in forma, nell’estate 2018 decisi di terminare la collaborazione con
-            Virgin Active ed aprire il mio primo box, CrossFit Torrevecchia.
-          </p>
-        </section>
+        <app-about-me></app-about-me>
       </div>
 
       <img class="col-xl-4 col-md-4 mb-3 text-center align-self-center hoverable" src="../assets/chi_sono1.jpg"
@@ -165,70 +120,14 @@
 
     <div class="row">
       <div class="col">
-        <section style="padding-top: 40px; margin-top: -40px;" id="formazione">
-          <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
-              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Formazione</h2>
-          <hr>
-          <p class="dark-grey-text text-justify">
-            Durante il mio percorso professionale ho ottenuto diverse certificazioni a livello Nazionale, eccone alcune:
-          </p>
-          <p class="dark-grey-text text-justify">
-            Personal Trainer ISSA 1 Livello<br>
-            Certificazione ISSA Functional Training<br>
-            Crossfit Level 2<br>
-            Diploma Nazionale iscritto al registro CONI<br>
-            Iscritto Albo Ereps EQF-Lv5<br>
-            Laureando Scienze Motorie<br>
-            Crossfit Weightlifting Trainer<br>
-            CrossFit Gymnastic Trainer<br>
-            Istruttore Powerlifting certificato FIPL<br>
-            C2 Indoor Rowing Instructor Level 1<br>
-            Trainer Functional Training CONI<br>
-            Trainer certificato TRX suspension training<br>
-            Trainer Kettlebell riconosciuto CONI<br>
-            Master Nutrizione sportiva CONI<br>
-            Seminario ISSA Donne e Cellulite<br>
-            Atleta tesserato Fipe<br>
-            Atleta CrossFit<br>
-            Attestato BLSD<br>
-          </p>
-          <p class="dark-grey-text text-justify">
-            Potete visualizzare ulteriori informazioni sul mio profilo Linkedin al seguente link ->
-            <a href="https://www.linkedin.com/in/emanuele-caloisi-aaa753105">Linkedin</a>
-          </p>
-        </section>
+        <app-formazione></app-formazione>
       </div>
     </div>
 
     <br>
     <div class="row">
       <div class="col">
-        <section style="padding-top: 40px; margin-top: -40px;" id="metodo">
-          <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
-              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Il Programma</h2>
-          <hr>
-          <p class="dark-grey-text text-justify">
-            Respiro sport da tutta la mia vita, ne ho fatto una professione che negli anni mi ha dato la possibilità di
-            aiutare moltissime persone a raggiungere i propri obiettivi, sia per amatori che agonisti.
-          </p>
-          <p class="dark-grey-text text-justify">
-            La mia mission è offrirti un programma che sia il più personalizzato possibile per le tue esigenze,
-            obiettivi e che sia cucito su te stesso in base ai tuoi orari, attrezzatura e stile di allenamento.
-          </p>
-          <p class="dark-grey-text text-justify">
-            Negli anni ho avuto la fortuna di collaborare con un team di professionisti che, laddove sia necessario,
-            mi supportano in questo programma, quali ad es. fisioterapista e nutrizionista.
-          </p>
-          <p class="dark-grey-text text-justify">
-            Il mio programma è per tutti e per tutte le età, che tu sia un agonista, un businessman, una casalinga
-            o semplicemente una persona che vuole rimettersi in forma!
-          </p>
-          <p class="dark-grey-text text-justify">
-            Sono felice di poterti aiutare a raggiungere i tuoi obiettivi!
-          </p>
-        </section>
+        <app-metodo></app-metodo>
         <br>
 
         <mdb-carousel [animation]="'slide'" [interval]="false">
@@ -270,201 +169,19 @@
     <br>
     <div class="row">
       <div class="col">
-        <section style="padding-top: 40px; margin-top: -40px;" id="prezzi">
-          <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
-              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Prezzi</h2>
-          <hr>
-
-          <div class="pricing4 py-5 bg-light">
-            <div class="container">
-              <div class="row mt-4">
-                <!-- Column -->
-                <div class="col-md-4">
-                  <div class="card card-shadow border-0 mb-4">
-                    <div class="p-3">
-                      <h5 class="font-weight-medium mb-0">Piano Allenamento - 1 Mese</h5>
-                      <ul class="list-inline font-14 mt-3">
-                        <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-                      </ul>
-                      <div class="d-flex mt-3 align-items-center">
-                        <h2 class="price">70€</h2>
-                        <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                                href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Column -->
-                <div class="col-md-4">
-                  <div class="card card-shadow border-0 mb-4">
-                    <div class="p-3">
-                      <h5 class="font-weight-medium mb-0">Piano Allenamento - 3 Mesi</h5>
-                      <ul class="list-inline font-14 mt-3">
-                        <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-                      </ul>
-                      <div class="d-flex mt-3 align-items-center">
-                        <h2 class="price">180€</h2>
-                        <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                                href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Column -->
-                <div class="col-md-4">
-                  <div class="card card-shadow border-0 mb-4">
-                    <div class="p-3">
-                      <h5 class="font-weight-medium mb-0">Piano Allenamento - 6 Mesi</h5>
-                      <ul class="list-inline font-14 mt-3">
-                        <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-                      </ul>
-                      <div class="d-flex mt-3 align-items-center">
-                        <h2 class="price">300€</h2>
-                        <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                                href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row mt-4">
-                <!-- Column -->
-                <div class="col-md-4">
-                  <div class="card card-shadow border-0 mb-4">
-                    <div class="p-3">
-                      <h5 class="font-weight-medium mb-0">Piano Allenamento + Nutrizionista* - 1 Mese</h5>
-                      <h6 class="subtitle font-13">*Servizio in collaborazione con Biologo Nutrizionista</h6>
-                      <ul class="list-inline font-14 mt-3">
-                        <li class="py-1"><i class="icon-check text-success"></i> Piano Nutrizionale</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-                      </ul>
-                      <div class="d-flex mt-3 align-items-center">
-                        <h2 class="price">100€</h2>
-                        <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                                href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Column -->
-                <div class="col-md-4">
-                  <div class="card card-shadow border-0 mb-4">
-                    <div class="p-3">
-                      <h5 class="font-weight-medium mb-0">Piano Allenamento + Nutrizionista* - 3 Mesi</h5>
-                      <h6 class="subtitle font-13">*Servizio in collaborazione con Biologo Nutrizionista</h6>
-                      <ul class="list-inline font-14 mt-3">
-                        <li class="py-1"><i class="icon-check text-success"></i> Piano Nutrizionale</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-                      </ul>
-                      <div class="d-flex mt-3 align-items-center">
-                        <h2 class="price">255€</h2>
-                        <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                                href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Column -->
-                <div class="col-md-4">
-                  <div class="card card-shadow border-0 mb-4">
-                    <div class="p-3">
-                      <h5 class="font-weight-medium mb-0">Piano Allenamento + Nutrizionista* - 6 Mesi</h5>
-                      <h6 class="subtitle font-13">*Servizio in collaborazione con Biologo Nutrizionista</h6>
-                      <ul class="list-inline font-14 mt-3">
-                        <li class="py-1"><i class="icon-check text-success"></i> Piano Nutrizionale</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                        <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-                      </ul>
-                      <div class="d-flex mt-3 align-items-center">
-                        <h2 class="price">420€</h2>
-                        <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                                href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <app-prezzi></app-prezzi>
       </div>
     </div>
 
     <div class="row">
       <div class="col">
-        <section style="padding-top: 40px; margin-top: -40px;" id="news">
-          <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
-              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">News</h2>
-          <hr>
-
-          <div class="row">
-            <div class="col">
-              <iframe *ngIf="!isMobile" frameborder="0" allowtransparency="true" allowfullscreen="true"
-                      scrolling="no"
-                      title="fb:page Facebook Social Plugin"
-                      src="https://web.facebook.com/v3.3/plugins/page.php?adapt_container_width=true&amp;app_id=301480450250930&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df18fcbfe4aa2cc4%26domain%3Dwww.emanuelecaloisi.it%26origin%3Dhttps%253A%252F%252Fwww.emanuelecaloisi.it%252Ff269df31b78dec8%26relation%3Dparent.parent&amp;height=722&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2Femanuelecaloisipersonaltrainer%2F&amp;locale=it_IT&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=500"
-                      style="border: none; visibility: visible; width: 500px; height: 722px;" class=""></iframe>
-              <iframe *ngIf="isMobile" frameborder="0" allowtransparency="true" allowfullscreen="true"
-                      scrolling="no"
-                      title="fb:page Facebook Social Plugin"
-                      src="https://web.facebook.com/v3.3/plugins/page.php?adapt_container_width=true&amp;app_id=301480450250930&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df18fcbfe4aa2cc4%26domain%3Dwww.emanuelecaloisi.it%26origin%3Dhttps%253A%252F%252Fwww.emanuelecaloisi.it%252Ff269df31b78dec8%26relation%3Dparent.parent&amp;height=722&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2Femanuelecaloisipersonaltrainer%2F&amp;locale=it_IT&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=330"
-                      style="border: none; visibility: visible; height: 722px; width:330px;" class=""></iframe>
-              <br>
-            </div>
-
-            <div class="col" style="text-align: -webkit-right;" *ngIf="!isMobile">
-              <app-embed-social-widget [refId]="'626a6143a9217b09212c4fa5aa8d415cceb9f886'"></app-embed-social-widget>
-            </div>
-          </div>
-
-          <!--
-          <br *ngIf="isMobile">
-          <div class="row" *ngIf="isMobile">
-            <div class="col" style="text-align: -webkit-right;">
-              <app-embed-social-widget [refId]="'626a6143a9217b09212c4fa5aa8d415cceb9f886'"></app-embed-social-widget>
-            </div>
-          </div>
-          -->
-        </section>
+        <app-news></app-news>
       </div>
     </div>
 
     <div class="row">
       <div class="col">
-        <section style="padding-top: 40px; margin-top: -40px;" id="contatti">
-          <hr>
-          <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
-              style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Contatti</h2>
-          <hr>
-
-          <div class="row">
-            <div class="col d-flex justify-content-center">
-              <pre class="dark-grey-text text-justify contattiFont">
-                Sito:
-
-                <a href="http://www.emanuelecaloisi.it"><b>www.emanuelecaloisi.it</b></a>
-
-                Email:
-
-                <a href="mailto:info@emanuelecaloisi.it"><b>info@emanuelecaloisi.it</b></a>
-              </pre>
-            </div>
-          </div>
-        </section>
+        <app-contatti></app-contatti>
       </div>
     </div>
 
