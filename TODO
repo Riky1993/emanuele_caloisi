@@ -1,2 +1,4 @@
-- Sezione 'NEWS' con Instagram non riprende l'ultimo post, ma va modificato manualmente da HTML.
+- Posizionare bene instagram su mobile, video non si aprono, provare a cambiare "header" instagram con getByClassName
 - I redirect nella navbar non sono precisi.
+- Mettere recensioni facebook scelte casualmente
+- Provare a mettere sezioni nascoste (per mobile)

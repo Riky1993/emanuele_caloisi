@@ -7,12 +7,14 @@ import {MDBBootstrapModule} from 'angular-bootstrap-md';
 import {HttpClientModule} from '@angular/common/http';
 import {InstagramPostDirective} from './instagram-post.directive';
 import { EmbedSocialWidgetComponent } from './embed-social-widget/embed-social-widget.component';
+import { FacebookReviewsComponent } from './facebook-reviews/facebook-reviews.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InstagramPostDirective,
-    EmbedSocialWidgetComponent
+    EmbedSocialWidgetComponent,
+    FacebookReviewsComponent
   ],
   imports: [
     BrowserModule,
