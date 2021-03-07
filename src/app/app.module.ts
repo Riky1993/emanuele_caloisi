@@ -14,6 +14,13 @@ import { MetodoComponent } from './metodo/metodo.component';
 import { PrezziComponent } from './prezzi/prezzi.component';
 import { NewsComponent } from './news/news.component';
 import { ContattiComponent } from './contatti/contatti.component';
+import { GenericAboutMeComponent } from './about-me/generic-about-me/generic-about-me.component';
+import { GenericContattiComponent } from './contatti/generic-contatti/generic-contatti.component';
+import { GenericFacebookReviewsComponent } from './facebook-reviews/generic-facebook-reviews/generic-facebook-reviews.component';
+import { GenericFormazioneComponent } from './formazione/generic-formazione/generic-formazione.component';
+import { GenericMetodoComponent } from './metodo/generic-metodo/generic-metodo.component';
+import { GenericNewsComponent } from './news/generic-news/generic-news.component';
+import { GenericPrezziComponent } from './prezzi/generic-prezzi/generic-prezzi.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +33,14 @@ import { ContattiComponent } from './contatti/contatti.component';
     MetodoComponent,
     PrezziComponent,
     NewsComponent,
-    ContattiComponent
+    ContattiComponent,
+    GenericAboutMeComponent,
+    GenericContattiComponent,
+    GenericFacebookReviewsComponent,
+    GenericFormazioneComponent,
+    GenericMetodoComponent,
+    GenericNewsComponent,
+    GenericPrezziComponent
   ],
   imports: [
     BrowserModule,

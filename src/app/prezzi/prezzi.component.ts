@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {DeviceDetectorService} from 'ngx-device-detector';
 
 @Component({
   selector: 'app-prezzi',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prezzi.component.scss']
 })
 export class PrezziComponent implements OnInit {
+  public isMobile: boolean;
 
-  constructor() { }
+  constructor(public deviceService: DeviceDetectorService) {
+    this.isMobile = false;
+  }
 
   ngOnInit(): void {
+    this.isMobile = this.deviceService.isMobile();
   }
 
 }

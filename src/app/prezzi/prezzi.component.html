@@ -1,130 +1,22 @@
-<section style="padding-top: 40px; margin-top: -40px;" id="prezzi">
-  <hr>
-  <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
-      style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Prezzi</h2>
-  <hr>
+<div class="col" *ngIf="!isMobile">
+  <app-generic-prezzi></app-generic-prezzi>
+</div>
 
-  <div class="pricing4 py-5 bg-light">
-    <div class="container">
-      <div class="row mt-4">
-        <!-- Column -->
-        <div class="col-md-4">
-          <div class="card card-shadow border-0 mb-4">
-            <div class="p-3">
-              <h5 class="font-weight-medium mb-0">Piano Allenamento - 1 Mese</h5>
-              <ul class="list-inline font-14 mt-3">
-                <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-              </ul>
-              <div class="d-flex mt-3 align-items-center">
-                <h2 class="price">70€</h2>
-                <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                        href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Column -->
-        <div class="col-md-4">
-          <div class="card card-shadow border-0 mb-4">
-            <div class="p-3">
-              <h5 class="font-weight-medium mb-0">Piano Allenamento - 3 Mesi</h5>
-              <ul class="list-inline font-14 mt-3">
-                <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-              </ul>
-              <div class="d-flex mt-3 align-items-center">
-                <h2 class="price">180€</h2>
-                <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                        href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Column -->
-        <div class="col-md-4">
-          <div class="card card-shadow border-0 mb-4">
-            <div class="p-3">
-              <h5 class="font-weight-medium mb-0">Piano Allenamento - 6 Mesi</h5>
-              <ul class="list-inline font-14 mt-3">
-                <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-              </ul>
-              <div class="d-flex mt-3 align-items-center">
-                <h2 class="price">300€</h2>
-                <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                        href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<div id="accordionPrezzi" *ngIf="isMobile">
+  <div class="card">
+    <div class="card-header" id="headingPrezzi">
+      <h5 class="mb-0">
+        <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsePrezzi"
+           aria-expanded="false" aria-controls="collapsePrezzi">
+          Prezzi
+        </a>
+      </h5>
+    </div>
 
-      <div class="row mt-4">
-        <!-- Column -->
-        <div class="col-md-4">
-          <div class="card card-shadow border-0 mb-4">
-            <div class="p-3">
-              <h5 class="font-weight-medium mb-0">Piano Allenamento + Nutrizionista* - 1 Mese</h5>
-              <h6 class="subtitle font-13">*Servizio in collaborazione con Biologo Nutrizionista</h6>
-              <ul class="list-inline font-14 mt-3">
-                <li class="py-1"><i class="icon-check text-success"></i> Piano Nutrizionale</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-              </ul>
-              <div class="d-flex mt-3 align-items-center">
-                <h2 class="price">100€</h2>
-                <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                        href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Column -->
-        <div class="col-md-4">
-          <div class="card card-shadow border-0 mb-4">
-            <div class="p-3">
-              <h5 class="font-weight-medium mb-0">Piano Allenamento + Nutrizionista* - 3 Mesi</h5>
-              <h6 class="subtitle font-13">*Servizio in collaborazione con Biologo Nutrizionista</h6>
-              <ul class="list-inline font-14 mt-3">
-                <li class="py-1"><i class="icon-check text-success"></i> Piano Nutrizionale</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-              </ul>
-              <div class="d-flex mt-3 align-items-center">
-                <h2 class="price">255€</h2>
-                <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                        href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Column -->
-        <div class="col-md-4">
-          <div class="card card-shadow border-0 mb-4">
-            <div class="p-3">
-              <h5 class="font-weight-medium mb-0">Piano Allenamento + Nutrizionista* - 6 Mesi</h5>
-              <h6 class="subtitle font-13">*Servizio in collaborazione con Biologo Nutrizionista</h6>
-              <ul class="list-inline font-14 mt-3">
-                <li class="py-1"><i class="icon-check text-success"></i> Piano Nutrizionale</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Programma Allenamento</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Consulenza</li>
-                <li class="py-1"><i class="icon-check text-success"></i> Check Mensile</li>
-              </ul>
-              <div class="d-flex mt-3 align-items-center">
-                <h2 class="price">420€</h2>
-                <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0"
-                                        href="mailto:info@emanuelecaloisi.it">Contattami</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div id="collapsePrezzi" class="collapse" aria-labelledby="headingPrezzi" data-parent="#accordionPrezzi">
+      <div class="card-body">
+        <app-generic-prezzi></app-generic-prezzi>
       </div>
     </div>
   </div>
-</section>
+</div>
