@@ -23,3 +23,35 @@
     Sono felice di poterti aiutare a raggiungere i tuoi obiettivi!
   </p>
 </section>
+
+<div class="row">
+  <div class="col">
+    <mdb-carousel [animation]="'slide'" [interval]="false">
+      <mdb-carousel-item>
+        <img
+          [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}"
+          src="../../../assets/Carousel/imgCarousel2.JPG" alt="Carousel_1">
+      </mdb-carousel-item>
+      <mdb-carousel-item>
+        <img
+          [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}"
+          src="../../../assets/Carousel/imgCarousel3.JPG" alt="Carousel_2">
+      </mdb-carousel-item>
+      <mdb-carousel-item>
+        <img
+          [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}"
+          src="../../../assets/Carousel/imgCarousel4.jpg" alt="Carousel_3">
+      </mdb-carousel-item>
+      <mdb-carousel-item>
+        <img
+          [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}"
+          src="../../../assets/Carousel/imgCarousel5.jpg" alt="Carousel_4">
+      </mdb-carousel-item>
+      <mdb-carousel-item>
+        <img
+          [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}"
+          src="../../../assets/Carousel/imgCarousel1.jpg" alt="Carousel_5">
+      </mdb-carousel-item>
+    </mdb-carousel>
+  </div>
+</div>

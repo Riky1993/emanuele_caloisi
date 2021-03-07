@@ -89,7 +89,8 @@
         <app-about-me></app-about-me>
       </div>
 
-      <img class="col-xl-4 col-md-4 mb-3 text-center align-self-center hoverable" src="../assets/chi_sono1.jpg"
+      <img *ngIf="!isMobile" class="col-xl-4 col-md-4 mb-3 text-center align-self-center hoverable"
+           src="../assets/chi_sono1.jpg"
            alt="AboutMe">
     </div>
 
@@ -99,39 +100,9 @@
       </div>
     </div>
 
-    <br>
     <div class="row">
       <div class="col">
         <app-metodo></app-metodo>
-        <br>
-
-        <mdb-carousel [animation]="'slide'" [interval]="false">
-          <mdb-carousel-item>
-            <img
-              [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}"
-              src="../assets/Carousel/imgCarousel2.JPG" alt="Carousel_1">
-          </mdb-carousel-item>
-          <mdb-carousel-item>
-            <img
-              [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}"
-              src="../assets/Carousel/imgCarousel3.JPG" alt="Carousel_2">
-          </mdb-carousel-item>
-          <mdb-carousel-item>
-            <img
-              [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}"
-              src="../assets/Carousel/imgCarousel4.jpg" alt="Carousel_3">
-          </mdb-carousel-item>
-          <mdb-carousel-item>
-            <img
-              [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}"
-              src="../assets/Carousel/imgCarousel5.jpg" alt="Carousel_4">
-          </mdb-carousel-item>
-          <mdb-carousel-item>
-            <img
-              [ngClass]="{'col-xl-4 col-md-4 mb-3 text-center align-self-center': isMobile, 'd-block w-100': !isMobile}"
-              src="../assets/Carousel/imgCarousel1.jpg" alt="Carousel_5">
-          </mdb-carousel-item>
-        </mdb-carousel>
       </div>
     </div>
 
