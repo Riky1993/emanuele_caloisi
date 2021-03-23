@@ -1,4 +1,4 @@
-- TODO: Posizionare bene instagram su mobile, video non si aprono, provare a cambiare "header" instagram con getByClassName
+- TODO: Posizionare bene instagram su mobile, provare a cambiare "header" instagram con getByClassName
 - TODO: I redirect nella navbar non sono precisi/non funzionano con la nuova versione con accordion.
 - TODO: Mettere recensioni facebook scelte casualmente
 - TODO: Facebook con i nuovi accordion si sposta leggermente fuori, prima rimaneva centrato

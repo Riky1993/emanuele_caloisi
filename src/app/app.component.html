@@ -7,7 +7,7 @@
     <!-- Navbar brand -->
     <mdb-navbar-brand>
       <a class="navbar-brand" href="#">
-        <img class="logo-style" src="../assets/logo.png" alt="Logo">
+        <div class="logo-style" id="logoImg"></div>
       </a>
     </mdb-navbar-brand>
 
@@ -90,7 +90,7 @@
       </div>
 
       <img *ngIf="!isMobile" class="col-xl-4 col-md-4 mb-3 text-center align-self-center hoverable"
-           src="../assets/chi_sono1.jpg"
+           id="chiSonoImg"
            alt="AboutMe">
     </div>
 
