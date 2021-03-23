@@ -1,5 +1,5 @@
 <section style="padding-top: 40px; margin-top: -40px;" id="news">
-  <hr>
+  <hr id="ciao">
   <h2 class="text-center font-weight-bold wow fadeIn titleSection" data-wow-delay="0.2s"
       style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">News</h2>
   <hr>
@@ -19,7 +19,7 @@
       <br>
     </div>
 
-    <div class="col" style="text-align: -webkit-right;" *ngIf="!isMobile">
+    <div class="col" style="text-align: -webkit-right; overflow-y: scroll" *ngIf="!isMobile">
       <app-embed-social-widget [refId]="'626a6143a9217b09212c4fa5aa8d415cceb9f886'"></app-embed-social-widget>
     </div>
   </div>
