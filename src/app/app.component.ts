@@ -18,7 +18,7 @@ export class AppComponent implements OnInit, AfterContentInit {
   }
 
   ngOnInit(): void {
-    console.log('UPDATED ON 22/02/2021 21:46');
+    console.log('UPDATED ON 03/05/2021 21:57');
     this.isMobile = this.deviceService.isMobile();
   }
 
@@ -31,5 +31,16 @@ export class AppComponent implements OnInit, AfterContentInit {
     if (this.navbaridRef.shown) {
       this.navbaridRef.toggle();
     }
+  }
+
+  scrollTo(id: string): void {
+    let yOffset = -60;
+    if (id === 'chiSono') {
+      yOffset = -120;
+    }
+    const element = document.getElementById(id);
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({top: y, behavior: 'smooth'});
   }
 }

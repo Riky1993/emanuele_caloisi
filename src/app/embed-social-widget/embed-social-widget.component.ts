@@ -6,7 +6,7 @@ import {DeviceDetectorService} from 'ngx-device-detector';
   templateUrl: './embed-social-widget.component.html',
   styleUrls: ['./embed-social-widget.component.scss']
 })
-export class EmbedSocialWidgetComponent implements OnInit, AfterViewInit {
+export class EmbedSocialWidgetComponent implements OnInit {
   @Input() refId: string;
   public isMobile: boolean;
 
@@ -16,7 +16,7 @@ export class EmbedSocialWidgetComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     this.isMobile = this.deviceService.isMobile();
-    (function(d, s, id) {
+    (function (d, s, id) {
       var js;
       if (d.getElementById(id)) {
         return;
@@ -28,10 +28,10 @@ export class EmbedSocialWidgetComponent implements OnInit, AfterViewInit {
     }(document, 'script', 'EmbedSocialHashtagScript'));
   }
 
-  ngAfterViewInit() {
+  /* ngAfterViewInit() {
 
-    console.log(document.getElementById("es-new"));
-    console.log(document.getElementsByClassName("es-free table-cell"));
+     console.log(document.getElementById("es-new"));
+     console.log(document.getElementsByClassName("es-free table-cell"));
 
-  }
+   }*/
 }
