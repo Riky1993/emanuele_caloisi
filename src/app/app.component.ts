@@ -18,7 +18,7 @@ export class AppComponent implements OnInit, AfterContentInit {
   }
 
   ngOnInit(): void {
-    console.log('UPDATED ON 03/05/2021 21:57');
+    console.log('UPDATED ON 30/08/2021 22:31');
     this.isMobile = this.deviceService.isMobile();
   }
 
