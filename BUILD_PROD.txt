@@ -13,3 +13,9 @@
 
 ng build --prod --base-href https://riky1993.github.io/emanuele_caloisi/
 angular-cli-ghpages -d dist/emanuele-caloisi/ --no-silent
+
+
+------------------------------------------------------------------------------------------------------------------------
+FIREBASE:
+1 - ng build --prod
+2 - firebase deploy
