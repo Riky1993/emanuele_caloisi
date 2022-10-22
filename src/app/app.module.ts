@@ -21,6 +21,7 @@ import { GenericFormazioneComponent } from './formazione/generic-formazione/gene
 import { GenericMetodoComponent } from './metodo/generic-metodo/generic-metodo.component';
 import { GenericNewsComponent } from './news/generic-news/generic-news.component';
 import { GenericPrezziComponent } from './prezzi/generic-prezzi/generic-prezzi.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -42,12 +43,13 @@ import { GenericPrezziComponent } from './prezzi/generic-prezzi/generic-prezzi.c
     GenericNewsComponent,
     GenericPrezziComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    MDBBootstrapModule.forRoot(),
-    HttpClientModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        MDBBootstrapModule.forRoot(),
+        HttpClientModule,
+        ReactiveFormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
