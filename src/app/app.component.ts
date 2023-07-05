@@ -34,6 +34,9 @@ export class AppComponent implements OnInit, AfterContentInit {
   }
 
   scrollTo(id: string): void {
+    const collapseId = 'collapse' + id.charAt(0).toUpperCase() + id.substring(1);
+    document.getElementById(collapseId).classList.add('collapse', 'show');
+
     let yOffset = -60;
     if (id === 'chiSono') {
       yOffset = -120;
