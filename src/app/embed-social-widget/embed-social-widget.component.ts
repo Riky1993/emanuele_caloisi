@@ -11,7 +11,7 @@ export class EmbedSocialWidgetComponent implements OnInit {
   screenWidth: number;
 
   @HostListener('window:resize', ['$event'])
-  onResize(): void {
+  onResize(event: any): void {
     this.screenWidth = window.innerWidth;
   }
 
