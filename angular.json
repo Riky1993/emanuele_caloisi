@@ -39,7 +39,9 @@
               "node_modules/animate.css/animate.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./src/assets/js/calendly.js"
+            ]
           },
           "configurations": {
             "production": {

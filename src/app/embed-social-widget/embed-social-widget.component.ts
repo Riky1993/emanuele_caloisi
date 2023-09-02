@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, Input, OnInit} from '@angular/core';
+import {Component, HostListener, Input, OnInit} from '@angular/core';
 import {DeviceDetectorService} from 'ngx-device-detector';
 
 @Component({
@@ -8,6 +8,13 @@ import {DeviceDetectorService} from 'ngx-device-detector';
 })
 export class EmbedSocialWidgetComponent implements OnInit {
   @Input() refId: string;
+  screenWidth: number;
+
+  @HostListener('window:resize', ['$event'])
+  onResize(): void {
+    this.screenWidth = window.innerWidth;
+  }
+
   public isMobile: boolean;
 
   constructor(public deviceService: DeviceDetectorService) {

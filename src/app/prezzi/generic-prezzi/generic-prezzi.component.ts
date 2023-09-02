@@ -1,13 +1,18 @@
-import { Component, OnInit } from '@angular/core';
-import {FormControl, FormGroup, Validators} from "@angular/forms";
+import {AfterContentInit, Component, OnInit} from '@angular/core';
+declare global {
+  interface Window {
+    Calendly: any;
+  }
+}
 
 @Component({
   selector: 'app-generic-prezzi',
   templateUrl: './generic-prezzi.component.html',
   styleUrls: ['./generic-prezzi.component.scss']
 })
-export class GenericPrezziComponent implements OnInit {
+export class GenericPrezziComponent implements OnInit, AfterContentInit {
   // public mailForm: FormGroup;
+  public calendlyUrl = 'https://calendly.com/emanuelecaloisi/30min';
 
   constructor() { }
 
@@ -26,5 +31,13 @@ export class GenericPrezziComponent implements OnInit {
     // } else {
     //   console.log('MAIL INVIATA')
     // }
+  }
+
+  ngAfterContentInit(): void {
+    window.Calendly.initInlineWidget({
+      url: this.calendlyUrl,
+      parentElement: document.querySelector('.calendly-inline-widget'),
+      prefill: {}
+    });
   }
 }
